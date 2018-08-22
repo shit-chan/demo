@@ -1,0 +1,988 @@
+2018-08-19 22:16:12,414 INFO (AbstractApplicationContext.java:993)- Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@dbb3120: startup date [Sat Aug 18 23:20:32 CST 2018]; root of context hierarchy
+2018-08-19 22:16:12,443 INFO (DefaultLifecycleProcessor.java:366)- Stopping beans in phase 2147483647
+2018-08-19 22:16:12,444 INFO (DefaultLifecycleProcessor.java:366)- Stopping beans in phase 2147483547
+2018-08-19 22:16:12,444 INFO (DefaultLifecycleProcessor.java:366)- Stopping beans in phase 0
+2018-08-19 22:16:12,461 INFO (MBeanExporter.java:451)- Unregistering JMX-exposed beans on shutdown
+2018-08-19 22:16:12,462 INFO (MBeanRegistrationSupport.java:185)- Unregistering JMX-exposed beans
+2018-08-19 22:16:16,346 INFO (StartupInfoLogger.java:50)- Starting DemoApplication on shitdeMacBook-Pro.local with PID 12617 (/Users/shitchan/IdeaProjects/demo/target/classes started by shitchan in /Users/shitchan/IdeaProjects/demo)
+2018-08-19 22:16:16,350 INFO (SpringApplication.java:662)- No active profile set, falling back to default profiles: default
+2018-08-19 22:16:16,436 INFO (AbstractApplicationContext.java:590)- Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@45594978: startup date [Sun Aug 19 22:16:16 CST 2018]; root of context hierarchy
+2018-08-19 22:16:17,741 WARN (ClassPathMapperScanner.java:166)- No MyBatis mapper was found in '[demo.repository.master]' package. Please check your configuration.
+2018-08-19 22:16:17,742 WARN (ClassPathMapperScanner.java:166)- No MyBatis mapper was found in '[demo.repository.slave]' package. Please check your configuration.
+2018-08-19 22:16:18,116 INFO (RepositoryConfigurationDelegate.java:163)- Multiple Spring Data modules found, entering strict repository configuration mode!
+2018-08-19 22:16:18,149 INFO (RepositoryConfigurationDelegate.java:163)- Multiple Spring Data modules found, entering strict repository configuration mode!
+2018-08-19 22:16:18,664 INFO (PostProcessorRegistrationDelegate.java:326)- Bean 'org.springframework.amqp.rabbit.annotation.RabbitBootstrapConfiguration' of type [org.springframework.amqp.rabbit.annotation.RabbitBootstrapConfiguration$$EnhancerBySpringCGLIB$$2c1f2f79] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-08-19 22:16:18,703 INFO (PostProcessorRegistrationDelegate.java:326)- Bean 'org.springframework.kafka.annotation.KafkaBootstrapConfiguration' of type [org.springframework.kafka.annotation.KafkaBootstrapConfiguration$$EnhancerBySpringCGLIB$$396582ce] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-08-19 22:16:18,798 INFO (PostProcessorRegistrationDelegate.java:326)- Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$65b3714b] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-08-19 22:16:19,343 INFO (TomcatWebServer.java:91)- Tomcat initialized with port(s): 8080 (http)
+2018-08-19 22:16:19,359 INFO (DirectJDKLog.java:180)- Initializing ProtocolHandler ["http-nio-8080"]
+2018-08-19 22:16:19,374 INFO (DirectJDKLog.java:180)- Starting service [Tomcat]
+2018-08-19 22:16:19,374 INFO (DirectJDKLog.java:180)- Starting Servlet Engine: Apache Tomcat/8.5.32
+2018-08-19 22:16:19,380 INFO (DirectJDKLog.java:180)- The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/shitchan/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+2018-08-19 22:16:19,460 INFO (DirectJDKLog.java:180)- Initializing Spring embedded WebApplicationContext
+2018-08-19 22:16:19,460 INFO (ServletWebServerApplicationContext.java:285)- Root WebApplicationContext: initialization completed in 3024 ms
+2018-08-19 22:16:19,535 INFO (ServletRegistrationBean.java:187)- Servlet dispatcherServlet mapped to [/]
+2018-08-19 22:16:19,540 INFO (AbstractFilterRegistrationBean.java:245)- Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-08-19 22:16:19,540 INFO (AbstractFilterRegistrationBean.java:245)- Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-08-19 22:16:19,540 INFO (AbstractFilterRegistrationBean.java:245)- Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-08-19 22:16:19,540 INFO (AbstractFilterRegistrationBean.java:245)- Mapping filter: 'requestContextFilter' to: [/*]
+2018-08-19 22:16:19,984 INFO (SLF4JLogger.java:71)- Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2018-08-19 22:16:20,035 INFO (SLF4JLogger.java:71)- Opened connection [connectionId{localValue:1, serverValue:28}] to localhost:27017
+2018-08-19 22:16:20,039 INFO (SLF4JLogger.java:71)- Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 0, 0]}, minWireVersion=0, maxWireVersion=7, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=2227772}
+2018-08-19 22:16:20,392 INFO (AbstractUrlHandlerMapping.java:373)- Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-08-19 22:16:20,674 INFO (RequestMappingHandlerAdapter.java:574)- Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@45594978: startup date [Sun Aug 19 22:16:16 CST 2018]; root of context hierarchy
+2018-08-19 22:16:20,730 INFO (AbstractHandlerMethodMapping.java:547)- Mapped "{[/demo/find],methods=[POST]}" onto public com.shit.demo.bean.Result com.shit.demo.action.DemoController.find(com.shit.demo.bean.User,org.springframework.validation.BindingResult)
+2018-08-19 22:16:20,732 INFO (AbstractHandlerMethodMapping.java:547)- Mapped "{[/demo/hello]}" onto public com.shit.demo.bean.Result com.shit.demo.action.DemoController.say()
+2018-08-19 22:16:20,733 INFO (AbstractHandlerMethodMapping.java:547)- Mapped "{[/mongodb/test]}" onto public com.shit.demo.bean.Result com.shit.demo.action.MongoController.test()
+2018-08-19 22:16:20,734 INFO (AbstractHandlerMethodMapping.java:547)- Mapped "{[/postgresql/test]}" onto public com.shit.demo.bean.Result com.shit.demo.action.PostgresqlController.test()
+2018-08-19 22:16:20,735 INFO (AbstractHandlerMethodMapping.java:547)- Mapped "{[/redis/get],methods=[POST]}" onto public com.shit.demo.bean.Result com.shit.demo.action.RedisController.get()
+2018-08-19 22:16:20,736 INFO (AbstractHandlerMethodMapping.java:547)- Mapped "{[/redis/hash],methods=[POST]}" onto public com.shit.demo.bean.Result com.shit.demo.action.RedisController.hash()
+2018-08-19 22:16:20,736 INFO (AbstractHandlerMethodMapping.java:547)- Mapped "{[/redis/list],methods=[POST]}" onto public com.shit.demo.bean.Result com.shit.demo.action.RedisController.list()
+2018-08-19 22:16:20,736 INFO (AbstractHandlerMethodMapping.java:547)- Mapped "{[/redis/set],methods=[POST]}" onto public com.shit.demo.bean.Result com.shit.demo.action.RedisController.set()
+2018-08-19 22:16:20,737 INFO (AbstractHandlerMethodMapping.java:547)- Mapped "{[/redis/delete],methods=[POST]}" onto public com.shit.demo.bean.Result com.shit.demo.action.RedisController.delete()
+2018-08-19 22:16:20,740 INFO (AbstractHandlerMethodMapping.java:547)- Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-08-19 22:16:20,741 INFO (AbstractHandlerMethodMapping.java:547)- Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-08-19 22:16:20,789 INFO (AbstractUrlHandlerMapping.java:373)- Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-08-19 22:16:20,789 INFO (AbstractUrlHandlerMapping.java:373)- Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-08-19 22:16:21,197 INFO (SLF4JLogger.java:71)- Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2018-08-19 22:16:21,202 INFO (SLF4JLogger.java:71)- Opened connection [connectionId{localValue:2, serverValue:29}] to localhost:27017
+2018-08-19 22:16:21,204 INFO (SLF4JLogger.java:71)- Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 0, 0]}, minWireVersion=0, maxWireVersion=7, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=1212922}
+2018-08-19 22:16:21,756 INFO (OptionalLiveReloadServer.java:57)- LiveReload server is running on port 35729
+2018-08-19 22:16:21,805 INFO (MBeanExporter.java:433)- Registering beans for JMX exposure on startup
+2018-08-19 22:16:21,806 INFO (MBeanExporter.java:895)- Bean with name 'masterDataSource' has been autodetected for JMX exposure
+2018-08-19 22:16:21,806 INFO (MBeanExporter.java:895)- Bean with name 'slaveDataSource' has been autodetected for JMX exposure
+2018-08-19 22:16:21,815 INFO (MBeanExporter.java:895)- Bean with name 'rabbitConnectionFactory' has been autodetected for JMX exposure
+2018-08-19 22:16:21,819 INFO (MBeanExporter.java:668)- Located MBean 'masterDataSource': registering with JMX server as MBean [com.zaxxer.hikari:name=masterDataSource,type=HikariDataSource]
+2018-08-19 22:16:21,820 INFO (MBeanExporter.java:668)- Located MBean 'slaveDataSource': registering with JMX server as MBean [com.zaxxer.hikari:name=slaveDataSource,type=HikariDataSource]
+2018-08-19 22:16:21,821 INFO (MBeanExporter.java:675)- Located managed bean 'rabbitConnectionFactory': registering with JMX server as MBean [org.springframework.amqp.rabbit.connection:name=rabbitConnectionFactory,type=CachingConnectionFactory]
+2018-08-19 22:16:21,844 INFO (DefaultLifecycleProcessor.java:351)- Starting beans in phase 2147483547
+2018-08-19 22:16:21,845 INFO (DefaultLifecycleProcessor.java:351)- Starting beans in phase 2147483647
+2018-08-19 22:16:21,858 INFO (DirectJDKLog.java:180)- Starting ProtocolHandler ["http-nio-8080"]
+2018-08-19 22:16:21,874 INFO (DirectJDKLog.java:180)- Using a shared selector for servlet write/read
+2018-08-19 22:16:21,890 INFO (TomcatWebServer.java:206)- Tomcat started on port(s): 8080 (http) with context path ''
+2018-08-19 22:16:21,898 INFO (StartupInfoLogger.java:59)- Started DemoApplication in 5.942 seconds (JVM running for 7.793)
+2018-08-19 22:16:42,989 INFO (DirectJDKLog.java:180)- Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-08-19 22:16:42,990 INFO (FrameworkServlet.java:494)- FrameworkServlet 'dispatcherServlet': initialization started
+2018-08-19 22:16:43,071 INFO (FrameworkServlet.java:509)- FrameworkServlet 'dispatcherServlet': initialization completed in 80 ms
+2018-08-19 22:16:43,268 ERROR (DirectJDKLog.java:182)- Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.apache.ibatis.binding.BindingException: Invalid bound statement (not found): com.shit.demo.mapper.UserMapper.find] with root cause
+org.apache.ibatis.binding.BindingException: Invalid bound statement (not found): com.shit.demo.mapper.UserMapper.find
+	at org.apache.ibatis.binding.MapperMethod$SqlCommand.<init>(MapperMethod.java:227)
+	at org.apache.ibatis.binding.MapperMethod.<init>(MapperMethod.java:49)
+	at org.apache.ibatis.binding.MapperProxy.cachedMapperMethod(MapperProxy.java:65)
+	at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:58)
+	at com.sun.proxy.$Proxy77.find(Unknown Source)
+	at com.shit.demo.service.impl.UserServiceImpl.find(UserServiceImpl.java:28)
+	at com.shit.demo.action.DemoController.find(DemoController.java:44)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:209)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:136)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:102)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:877)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:783)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:991)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:925)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:974)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:877)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:661)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:851)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:742)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HttpPutFormContentFilter.doFilterInternal(HttpPutFormContentFilter.java:109)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:198)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:493)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:800)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:800)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1471)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1135)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:844)
+2018-08-19 22:17:08,507 INFO (Slf4JLogger.java:101)- Starting without optional epoll library
+2018-08-19 22:17:08,509 INFO (Slf4JLogger.java:101)- Starting without optional kqueue library
+2018-08-19 22:17:08,644 INFO (RedisController.java:93)- lPop:B
+2018-08-19 22:17:08,646 INFO (RedisController.java:94)- rPopC
+2018-08-19 22:17:09,714 INFO (RedisController.java:93)- lPop:A
+2018-08-19 22:17:09,715 INFO (RedisController.java:94)- rPopC
+2018-08-19 22:17:27,725 INFO (RedisController.java:27)- 设置了key为1000的有效期为30秒
+2018-08-19 22:17:33,299 INFO (DemoController.java:30)- say hello world!
+2018-08-19 22:17:37,130 ERROR (DirectJDKLog.java:182)- Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.apache.ibatis.binding.BindingException: Invalid bound statement (not found): com.shit.demo.mapper.UserMapper.find] with root cause
+org.apache.ibatis.binding.BindingException: Invalid bound statement (not found): com.shit.demo.mapper.UserMapper.find
+	at org.apache.ibatis.binding.MapperMethod$SqlCommand.<init>(MapperMethod.java:227)
+	at org.apache.ibatis.binding.MapperMethod.<init>(MapperMethod.java:49)
+	at org.apache.ibatis.binding.MapperProxy.cachedMapperMethod(MapperProxy.java:65)
+	at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:58)
+	at com.sun.proxy.$Proxy77.find(Unknown Source)
+	at com.shit.demo.service.impl.UserServiceImpl.find(UserServiceImpl.java:28)
+	at com.shit.demo.action.DemoController.find(DemoController.java:44)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:209)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:136)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:102)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:877)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:783)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:991)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:925)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:974)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:877)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:661)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:851)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:742)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HttpPutFormContentFilter.doFilterInternal(HttpPutFormContentFilter.java:109)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:198)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:493)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:800)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:800)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1471)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1135)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:844)
+2018-08-19 22:19:03,291 INFO (AbstractApplicationContext.java:993)- Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@45594978: startup date [Sun Aug 19 22:16:16 CST 2018]; root of context hierarchy
+2018-08-19 22:19:03,300 INFO (DefaultLifecycleProcessor.java:366)- Stopping beans in phase 2147483647
+2018-08-19 22:19:03,301 INFO (DefaultLifecycleProcessor.java:366)- Stopping beans in phase 2147483547
+2018-08-19 22:19:03,301 INFO (DefaultLifecycleProcessor.java:366)- Stopping beans in phase 0
+2018-08-19 22:19:03,312 INFO (MBeanExporter.java:451)- Unregistering JMX-exposed beans on shutdown
+2018-08-19 22:19:03,313 INFO (MBeanRegistrationSupport.java:185)- Unregistering JMX-exposed beans
+2018-08-19 22:19:09,874 INFO (StartupInfoLogger.java:50)- Starting DemoApplication on shitdeMacBook-Pro.local with PID 12640 (/Users/shitchan/IdeaProjects/demo/target/classes started by shitchan in /Users/shitchan/IdeaProjects/demo)
+2018-08-19 22:19:09,882 INFO (SpringApplication.java:662)- No active profile set, falling back to default profiles: default
+2018-08-19 22:19:10,039 INFO (AbstractApplicationContext.java:590)- Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@5ab12b5f: startup date [Sun Aug 19 22:19:10 CST 2018]; root of context hierarchy
+2018-08-19 22:19:11,559 WARN (ClassPathMapperScanner.java:166)- No MyBatis mapper was found in '[demo.repository.master]' package. Please check your configuration.
+2018-08-19 22:19:11,561 WARN (ClassPathMapperScanner.java:166)- No MyBatis mapper was found in '[demo.repository.slave]' package. Please check your configuration.
+2018-08-19 22:19:11,867 INFO (RepositoryConfigurationDelegate.java:163)- Multiple Spring Data modules found, entering strict repository configuration mode!
+2018-08-19 22:19:11,933 INFO (RepositoryConfigurationDelegate.java:163)- Multiple Spring Data modules found, entering strict repository configuration mode!
+2018-08-19 22:19:12,736 INFO (PostProcessorRegistrationDelegate.java:326)- Bean 'org.springframework.amqp.rabbit.annotation.RabbitBootstrapConfiguration' of type [org.springframework.amqp.rabbit.annotation.RabbitBootstrapConfiguration$$EnhancerBySpringCGLIB$$1dae2a44] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-08-19 22:19:12,786 INFO (PostProcessorRegistrationDelegate.java:326)- Bean 'org.springframework.kafka.annotation.KafkaBootstrapConfiguration' of type [org.springframework.kafka.annotation.KafkaBootstrapConfiguration$$EnhancerBySpringCGLIB$$2af47d99] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-08-19 22:19:12,867 INFO (PostProcessorRegistrationDelegate.java:326)- Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$57426c16] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-08-19 22:19:13,559 INFO (TomcatWebServer.java:91)- Tomcat initialized with port(s): 8080 (http)
+2018-08-19 22:19:13,576 INFO (DirectJDKLog.java:180)- Initializing ProtocolHandler ["http-nio-8080"]
+2018-08-19 22:19:13,588 INFO (DirectJDKLog.java:180)- Starting service [Tomcat]
+2018-08-19 22:19:13,588 INFO (DirectJDKLog.java:180)- Starting Servlet Engine: Apache Tomcat/8.5.32
+2018-08-19 22:19:13,595 INFO (DirectJDKLog.java:180)- The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/shitchan/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+2018-08-19 22:19:13,697 INFO (DirectJDKLog.java:180)- Initializing Spring embedded WebApplicationContext
+2018-08-19 22:19:13,697 INFO (ServletWebServerApplicationContext.java:285)- Root WebApplicationContext: initialization completed in 3658 ms
+2018-08-19 22:19:13,790 INFO (ServletRegistrationBean.java:187)- Servlet dispatcherServlet mapped to [/]
+2018-08-19 22:19:13,795 INFO (AbstractFilterRegistrationBean.java:245)- Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-08-19 22:19:13,796 INFO (AbstractFilterRegistrationBean.java:245)- Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-08-19 22:19:13,796 INFO (AbstractFilterRegistrationBean.java:245)- Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-08-19 22:19:13,797 INFO (AbstractFilterRegistrationBean.java:245)- Mapping filter: 'requestContextFilter' to: [/*]
+2018-08-19 22:19:14,223 INFO (SLF4JLogger.java:71)- Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2018-08-19 22:19:14,285 INFO (SLF4JLogger.java:71)- Opened connection [connectionId{localValue:1, serverValue:30}] to localhost:27017
+2018-08-19 22:19:14,290 INFO (SLF4JLogger.java:71)- Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 0, 0]}, minWireVersion=0, maxWireVersion=7, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=3123597}
+2018-08-19 22:19:14,729 INFO (AbstractUrlHandlerMapping.java:373)- Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-08-19 22:19:15,032 INFO (RequestMappingHandlerAdapter.java:574)- Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@5ab12b5f: startup date [Sun Aug 19 22:19:10 CST 2018]; root of context hierarchy
+2018-08-19 22:19:15,093 INFO (AbstractHandlerMethodMapping.java:547)- Mapped "{[/demo/find],methods=[POST]}" onto public com.shit.demo.bean.Result com.shit.demo.action.DemoController.find(com.shit.demo.bean.User,org.springframework.validation.BindingResult)
+2018-08-19 22:19:15,094 INFO (AbstractHandlerMethodMapping.java:547)- Mapped "{[/demo/hello]}" onto public com.shit.demo.bean.Result com.shit.demo.action.DemoController.say()
+2018-08-19 22:19:15,094 INFO (AbstractHandlerMethodMapping.java:547)- Mapped "{[/mongodb/test]}" onto public com.shit.demo.bean.Result com.shit.demo.action.MongoController.test()
+2018-08-19 22:19:15,095 INFO (AbstractHandlerMethodMapping.java:547)- Mapped "{[/postgresql/test]}" onto public com.shit.demo.bean.Result com.shit.demo.action.PostgresqlController.test()
+2018-08-19 22:19:15,096 INFO (AbstractHandlerMethodMapping.java:547)- Mapped "{[/redis/get],methods=[POST]}" onto public com.shit.demo.bean.Result com.shit.demo.action.RedisController.get()
+2018-08-19 22:19:15,097 INFO (AbstractHandlerMethodMapping.java:547)- Mapped "{[/redis/hash],methods=[POST]}" onto public com.shit.demo.bean.Result com.shit.demo.action.RedisController.hash()
+2018-08-19 22:19:15,097 INFO (AbstractHandlerMethodMapping.java:547)- Mapped "{[/redis/list],methods=[POST]}" onto public com.shit.demo.bean.Result com.shit.demo.action.RedisController.list()
+2018-08-19 22:19:15,098 INFO (AbstractHandlerMethodMapping.java:547)- Mapped "{[/redis/set],methods=[POST]}" onto public com.shit.demo.bean.Result com.shit.demo.action.RedisController.set()
+2018-08-19 22:19:15,098 INFO (AbstractHandlerMethodMapping.java:547)- Mapped "{[/redis/delete],methods=[POST]}" onto public com.shit.demo.bean.Result com.shit.demo.action.RedisController.delete()
+2018-08-19 22:19:15,102 INFO (AbstractHandlerMethodMapping.java:547)- Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-08-19 22:19:15,102 INFO (AbstractHandlerMethodMapping.java:547)- Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-08-19 22:19:15,141 INFO (AbstractUrlHandlerMapping.java:373)- Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-08-19 22:19:15,141 INFO (AbstractUrlHandlerMapping.java:373)- Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-08-19 22:19:15,545 INFO (SLF4JLogger.java:71)- Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2018-08-19 22:19:15,552 INFO (SLF4JLogger.java:71)- Opened connection [connectionId{localValue:2, serverValue:31}] to localhost:27017
+2018-08-19 22:19:15,558 INFO (SLF4JLogger.java:71)- Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 0, 0]}, minWireVersion=0, maxWireVersion=7, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=3581905}
+2018-08-19 22:19:16,103 INFO (OptionalLiveReloadServer.java:57)- LiveReload server is running on port 35729
+2018-08-19 22:19:16,144 INFO (MBeanExporter.java:433)- Registering beans for JMX exposure on startup
+2018-08-19 22:19:16,145 INFO (MBeanExporter.java:895)- Bean with name 'masterDataSource' has been autodetected for JMX exposure
+2018-08-19 22:19:16,145 INFO (MBeanExporter.java:895)- Bean with name 'slaveDataSource' has been autodetected for JMX exposure
+2018-08-19 22:19:16,154 INFO (MBeanExporter.java:895)- Bean with name 'rabbitConnectionFactory' has been autodetected for JMX exposure
+2018-08-19 22:19:16,157 INFO (MBeanExporter.java:668)- Located MBean 'masterDataSource': registering with JMX server as MBean [com.zaxxer.hikari:name=masterDataSource,type=HikariDataSource]
+2018-08-19 22:19:16,159 INFO (MBeanExporter.java:668)- Located MBean 'slaveDataSource': registering with JMX server as MBean [com.zaxxer.hikari:name=slaveDataSource,type=HikariDataSource]
+2018-08-19 22:19:16,160 INFO (MBeanExporter.java:675)- Located managed bean 'rabbitConnectionFactory': registering with JMX server as MBean [org.springframework.amqp.rabbit.connection:name=rabbitConnectionFactory,type=CachingConnectionFactory]
+2018-08-19 22:19:16,181 INFO (DefaultLifecycleProcessor.java:351)- Starting beans in phase 2147483547
+2018-08-19 22:19:16,182 INFO (DefaultLifecycleProcessor.java:351)- Starting beans in phase 2147483647
+2018-08-19 22:19:16,191 INFO (DirectJDKLog.java:180)- Starting ProtocolHandler ["http-nio-8080"]
+2018-08-19 22:19:16,202 INFO (DirectJDKLog.java:180)- Using a shared selector for servlet write/read
+2018-08-19 22:19:16,276 INFO (TomcatWebServer.java:206)- Tomcat started on port(s): 8080 (http) with context path ''
+2018-08-19 22:19:16,282 INFO (StartupInfoLogger.java:59)- Started DemoApplication in 7.027 seconds (JVM running for 8.654)
+2018-08-19 22:19:47,491 INFO (DirectJDKLog.java:180)- Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-08-19 22:19:47,492 INFO (FrameworkServlet.java:494)- FrameworkServlet 'dispatcherServlet': initialization started
+2018-08-19 22:19:47,517 INFO (FrameworkServlet.java:509)- FrameworkServlet 'dispatcherServlet': initialization completed in 25 ms
+2018-08-19 22:19:47,691 ERROR (DirectJDKLog.java:182)- Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.apache.ibatis.binding.BindingException: Invalid bound statement (not found): com.shit.demo.mapper.UserMapper.select] with root cause
+org.apache.ibatis.binding.BindingException: Invalid bound statement (not found): com.shit.demo.mapper.UserMapper.select
+	at org.apache.ibatis.binding.MapperMethod$SqlCommand.<init>(MapperMethod.java:227)
+	at org.apache.ibatis.binding.MapperMethod.<init>(MapperMethod.java:49)
+	at org.apache.ibatis.binding.MapperProxy.cachedMapperMethod(MapperProxy.java:65)
+	at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:58)
+	at com.sun.proxy.$Proxy77.select(Unknown Source)
+	at com.shit.demo.service.impl.UserServiceImpl.find(UserServiceImpl.java:28)
+	at com.shit.demo.action.DemoController.find(DemoController.java:44)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:209)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:136)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:102)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:877)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:783)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:991)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:925)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:974)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:877)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:661)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:851)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:742)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HttpPutFormContentFilter.doFilterInternal(HttpPutFormContentFilter.java:109)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:198)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:493)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:800)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:800)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1471)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1135)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:844)
+2018-08-19 22:49:16,800 INFO (SLF4JLogger.java:76)- Exception in monitor thread while connecting to server localhost:27017
+com.mongodb.MongoSocketReadTimeoutException: Timeout while receiving message
+	at com.mongodb.connection.InternalStreamConnection.translateReadException(InternalStreamConnection.java:530)
+	at com.mongodb.connection.InternalStreamConnection.receiveMessage(InternalStreamConnection.java:421)
+	at com.mongodb.connection.InternalStreamConnection.receiveCommandMessageResponse(InternalStreamConnection.java:290)
+	at com.mongodb.connection.InternalStreamConnection.sendAndReceive(InternalStreamConnection.java:255)
+	at com.mongodb.connection.CommandHelper.sendAndReceive(CommandHelper.java:84)
+	at com.mongodb.connection.CommandHelper.executeCommand(CommandHelper.java:34)
+	at com.mongodb.connection.InternalStreamConnectionInitializer.initializeConnectionDescription(InternalStreamConnectionInitializer.java:91)
+	at com.mongodb.connection.InternalStreamConnectionInitializer.initialize(InternalStreamConnectionInitializer.java:51)
+	at com.mongodb.connection.InternalStreamConnection.open(InternalStreamConnection.java:127)
+	at com.mongodb.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:128)
+	at java.base/java.lang.Thread.run(Thread.java:844)
+Caused by: java.net.SocketTimeoutException: Read timed out
+	at java.base/java.net.SocketInputStream.socketRead0(Native Method)
+	at java.base/java.net.SocketInputStream.socketRead(SocketInputStream.java:116)
+	at java.base/java.net.SocketInputStream.read(SocketInputStream.java:171)
+	at java.base/java.net.SocketInputStream.read(SocketInputStream.java:141)
+	at com.mongodb.connection.SocketStream.read(SocketStream.java:84)
+	at com.mongodb.connection.InternalStreamConnection.receiveResponseBuffers(InternalStreamConnection.java:547)
+	at com.mongodb.connection.InternalStreamConnection.receiveMessage(InternalStreamConnection.java:418)
+	... 9 common frames omitted
+2018-08-19 22:49:25,487 INFO (SLF4JLogger.java:76)- Exception in monitor thread while connecting to server localhost:27017
+com.mongodb.MongoSocketReadTimeoutException: Timeout while receiving message
+	at com.mongodb.connection.InternalStreamConnection.translateReadException(InternalStreamConnection.java:530)
+	at com.mongodb.connection.InternalStreamConnection.receiveMessage(InternalStreamConnection.java:421)
+	at com.mongodb.connection.InternalStreamConnection.receiveCommandMessageResponse(InternalStreamConnection.java:290)
+	at com.mongodb.connection.InternalStreamConnection.sendAndReceive(InternalStreamConnection.java:255)
+	at com.mongodb.connection.CommandHelper.sendAndReceive(CommandHelper.java:84)
+	at com.mongodb.connection.CommandHelper.executeCommand(CommandHelper.java:34)
+	at com.mongodb.connection.InternalStreamConnectionInitializer.initializeConnectionDescription(InternalStreamConnectionInitializer.java:91)
+	at com.mongodb.connection.InternalStreamConnectionInitializer.initialize(InternalStreamConnectionInitializer.java:51)
+	at com.mongodb.connection.InternalStreamConnection.open(InternalStreamConnection.java:127)
+	at com.mongodb.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:128)
+	at java.base/java.lang.Thread.run(Thread.java:844)
+Caused by: java.net.SocketTimeoutException: Read timed out
+	at java.base/java.net.SocketInputStream.socketRead0(Native Method)
+	at java.base/java.net.SocketInputStream.socketRead(SocketInputStream.java:116)
+	at java.base/java.net.SocketInputStream.read(SocketInputStream.java:171)
+	at java.base/java.net.SocketInputStream.read(SocketInputStream.java:141)
+	at com.mongodb.connection.SocketStream.read(SocketStream.java:84)
+	at com.mongodb.connection.InternalStreamConnection.receiveResponseBuffers(InternalStreamConnection.java:547)
+	at com.mongodb.connection.InternalStreamConnection.receiveMessage(InternalStreamConnection.java:418)
+	... 9 common frames omitted
+2018-08-19 23:07:54,394 INFO (SLF4JLogger.java:71)- Opened connection [connectionId{localValue:78, serverValue:107}] to localhost:27017
+2018-08-19 23:07:54,397 INFO (SLF4JLogger.java:71)- Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 0, 0]}, minWireVersion=0, maxWireVersion=7, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=619470}
+2018-08-19 23:07:57,124 INFO (SLF4JLogger.java:71)- Opened connection [connectionId{localValue:79, serverValue:108}] to localhost:27017
+2018-08-19 23:07:57,125 INFO (SLF4JLogger.java:71)- Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 0, 0]}, minWireVersion=0, maxWireVersion=7, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=639424}
+2018-08-19 23:40:00,824 INFO (AbstractApplicationContext.java:993)- Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@5ab12b5f: startup date [Sun Aug 19 22:19:10 CST 2018]; root of context hierarchy
+2018-08-19 23:40:00,870 INFO (DefaultLifecycleProcessor.java:366)- Stopping beans in phase 2147483647
+2018-08-19 23:40:00,871 INFO (DefaultLifecycleProcessor.java:366)- Stopping beans in phase 2147483547
+2018-08-19 23:40:00,871 INFO (DefaultLifecycleProcessor.java:366)- Stopping beans in phase 0
+2018-08-19 23:40:00,891 INFO (MBeanExporter.java:451)- Unregistering JMX-exposed beans on shutdown
+2018-08-19 23:40:00,892 INFO (MBeanRegistrationSupport.java:185)- Unregistering JMX-exposed beans
+2018-08-19 23:40:06,854 INFO (StartupInfoLogger.java:50)- Starting DemoApplication on shitdeMacBook-Pro.local with PID 18873 (/Users/shitchan/IdeaProjects/demo/target/classes started by shitchan in /Users/shitchan/IdeaProjects/demo)
+2018-08-19 23:40:06,857 INFO (SpringApplication.java:662)- No active profile set, falling back to default profiles: default
+2018-08-19 23:40:06,941 INFO (AbstractApplicationContext.java:590)- Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@3f82f2a5: startup date [Sun Aug 19 23:40:06 CST 2018]; root of context hierarchy
+2018-08-19 23:40:08,447 WARN (ClassPathMapperScanner.java:166)- No MyBatis mapper was found in '[demo.repository.master]' package. Please check your configuration.
+2018-08-19 23:40:08,449 WARN (ClassPathMapperScanner.java:166)- No MyBatis mapper was found in '[demo.repository.slave]' package. Please check your configuration.
+2018-08-19 23:40:08,724 INFO (RepositoryConfigurationDelegate.java:163)- Multiple Spring Data modules found, entering strict repository configuration mode!
+2018-08-19 23:40:08,771 INFO (RepositoryConfigurationDelegate.java:163)- Multiple Spring Data modules found, entering strict repository configuration mode!
+2018-08-19 23:40:09,509 INFO (PostProcessorRegistrationDelegate.java:326)- Bean 'org.springframework.amqp.rabbit.annotation.RabbitBootstrapConfiguration' of type [org.springframework.amqp.rabbit.annotation.RabbitBootstrapConfiguration$$EnhancerBySpringCGLIB$$58c704ce] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-08-19 23:40:09,551 INFO (PostProcessorRegistrationDelegate.java:326)- Bean 'org.springframework.kafka.annotation.KafkaBootstrapConfiguration' of type [org.springframework.kafka.annotation.KafkaBootstrapConfiguration$$EnhancerBySpringCGLIB$$660d5823] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-08-19 23:40:09,668 INFO (PostProcessorRegistrationDelegate.java:326)- Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$925b46a0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-08-19 23:40:10,218 INFO (TomcatWebServer.java:91)- Tomcat initialized with port(s): 8080 (http)
+2018-08-19 23:40:10,236 INFO (DirectJDKLog.java:180)- Initializing ProtocolHandler ["http-nio-8080"]
+2018-08-19 23:40:10,249 INFO (DirectJDKLog.java:180)- Starting service [Tomcat]
+2018-08-19 23:40:10,250 INFO (DirectJDKLog.java:180)- Starting Servlet Engine: Apache Tomcat/8.5.32
+2018-08-19 23:40:10,256 INFO (DirectJDKLog.java:180)- The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/shitchan/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+2018-08-19 23:40:10,353 INFO (DirectJDKLog.java:180)- Initializing Spring embedded WebApplicationContext
+2018-08-19 23:40:10,353 INFO (ServletWebServerApplicationContext.java:285)- Root WebApplicationContext: initialization completed in 3412 ms
+2018-08-19 23:40:10,439 INFO (ServletRegistrationBean.java:187)- Servlet dispatcherServlet mapped to [/]
+2018-08-19 23:40:10,446 INFO (AbstractFilterRegistrationBean.java:245)- Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-08-19 23:40:10,447 INFO (AbstractFilterRegistrationBean.java:245)- Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-08-19 23:40:10,447 INFO (AbstractFilterRegistrationBean.java:245)- Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-08-19 23:40:10,447 INFO (AbstractFilterRegistrationBean.java:245)- Mapping filter: 'requestContextFilter' to: [/*]
+2018-08-19 23:40:10,924 INFO (SLF4JLogger.java:71)- Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2018-08-19 23:40:10,977 INFO (SLF4JLogger.java:71)- Opened connection [connectionId{localValue:1, serverValue:109}] to localhost:27017
+2018-08-19 23:40:10,981 INFO (SLF4JLogger.java:71)- Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 0, 0]}, minWireVersion=0, maxWireVersion=7, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=2899157}
+2018-08-19 23:40:11,482 INFO (AbstractUrlHandlerMapping.java:373)- Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-08-19 23:40:11,799 INFO (RequestMappingHandlerAdapter.java:574)- Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@3f82f2a5: startup date [Sun Aug 19 23:40:06 CST 2018]; root of context hierarchy
+2018-08-19 23:40:11,856 INFO (AbstractHandlerMethodMapping.java:547)- Mapped "{[/demo/find],methods=[POST]}" onto public com.shit.demo.bean.Result com.shit.demo.action.DemoController.find(com.shit.demo.bean.User,org.springframework.validation.BindingResult)
+2018-08-19 23:40:11,857 INFO (AbstractHandlerMethodMapping.java:547)- Mapped "{[/demo/hello]}" onto public com.shit.demo.bean.Result com.shit.demo.action.DemoController.say()
+2018-08-19 23:40:11,858 INFO (AbstractHandlerMethodMapping.java:547)- Mapped "{[/mongodb/test]}" onto public com.shit.demo.bean.Result com.shit.demo.action.MongoController.test()
+2018-08-19 23:40:11,859 INFO (AbstractHandlerMethodMapping.java:547)- Mapped "{[/postgresql/test]}" onto public com.shit.demo.bean.Result com.shit.demo.action.PostgresqlController.test()
+2018-08-19 23:40:11,859 INFO (AbstractHandlerMethodMapping.java:547)- Mapped "{[/rabbitmq/hello],methods=[POST]}" onto public com.shit.demo.bean.Result com.shit.demo.action.RabbitMqController.send()
+2018-08-19 23:40:11,860 INFO (AbstractHandlerMethodMapping.java:547)- Mapped "{[/redis/get],methods=[POST]}" onto public com.shit.demo.bean.Result com.shit.demo.action.RedisController.get()
+2018-08-19 23:40:11,861 INFO (AbstractHandlerMethodMapping.java:547)- Mapped "{[/redis/hash],methods=[POST]}" onto public com.shit.demo.bean.Result com.shit.demo.action.RedisController.hash()
+2018-08-19 23:40:11,861 INFO (AbstractHandlerMethodMapping.java:547)- Mapped "{[/redis/list],methods=[POST]}" onto public com.shit.demo.bean.Result com.shit.demo.action.RedisController.list()
+2018-08-19 23:40:11,862 INFO (AbstractHandlerMethodMapping.java:547)- Mapped "{[/redis/set],methods=[POST]}" onto public com.shit.demo.bean.Result com.shit.demo.action.RedisController.set()
+2018-08-19 23:40:11,862 INFO (AbstractHandlerMethodMapping.java:547)- Mapped "{[/redis/delete],methods=[POST]}" onto public com.shit.demo.bean.Result com.shit.demo.action.RedisController.delete()
+2018-08-19 23:40:11,865 INFO (AbstractHandlerMethodMapping.java:547)- Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-08-19 23:40:11,866 INFO (AbstractHandlerMethodMapping.java:547)- Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-08-19 23:40:11,906 INFO (AbstractUrlHandlerMapping.java:373)- Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-08-19 23:40:11,906 INFO (AbstractUrlHandlerMapping.java:373)- Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-08-19 23:40:12,225 INFO (SLF4JLogger.java:71)- Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2018-08-19 23:40:12,230 INFO (SLF4JLogger.java:71)- Opened connection [connectionId{localValue:2, serverValue:110}] to localhost:27017
+2018-08-19 23:40:12,231 INFO (SLF4JLogger.java:71)- Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 0, 0]}, minWireVersion=0, maxWireVersion=7, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=737912}
+2018-08-19 23:40:12,795 INFO (OptionalLiveReloadServer.java:57)- LiveReload server is running on port 35729
+2018-08-19 23:40:12,841 INFO (MBeanExporter.java:433)- Registering beans for JMX exposure on startup
+2018-08-19 23:40:12,842 INFO (MBeanExporter.java:895)- Bean with name 'masterDataSource' has been autodetected for JMX exposure
+2018-08-19 23:40:12,843 INFO (MBeanExporter.java:895)- Bean with name 'slaveDataSource' has been autodetected for JMX exposure
+2018-08-19 23:40:12,851 INFO (MBeanExporter.java:895)- Bean with name 'rabbitConnectionFactory' has been autodetected for JMX exposure
+2018-08-19 23:40:12,856 INFO (MBeanExporter.java:668)- Located MBean 'masterDataSource': registering with JMX server as MBean [com.zaxxer.hikari:name=masterDataSource,type=HikariDataSource]
+2018-08-19 23:40:12,857 INFO (MBeanExporter.java:668)- Located MBean 'slaveDataSource': registering with JMX server as MBean [com.zaxxer.hikari:name=slaveDataSource,type=HikariDataSource]
+2018-08-19 23:40:12,859 INFO (MBeanExporter.java:675)- Located managed bean 'rabbitConnectionFactory': registering with JMX server as MBean [org.springframework.amqp.rabbit.connection:name=rabbitConnectionFactory,type=CachingConnectionFactory]
+2018-08-19 23:40:12,901 INFO (DefaultLifecycleProcessor.java:351)- Starting beans in phase 2147483547
+2018-08-19 23:40:12,901 INFO (DefaultLifecycleProcessor.java:351)- Starting beans in phase 2147483647
+2018-08-19 23:40:12,907 INFO (AbstractConnectionFactory.java:455)- Attempting to connect to: [localhost:15672]
+2018-08-19 23:40:17,922 ERROR (AbstractMessageListenerContainer.java:1618)- Failed to check/redeclare auto-delete queue(s).
+org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused (Connection refused)
+	at org.springframework.amqp.rabbit.support.RabbitExceptionTranslator.convertRabbitAccessException(RabbitExceptionTranslator.java:62)
+	at org.springframework.amqp.rabbit.connection.AbstractConnectionFactory.createBareConnection(AbstractConnectionFactory.java:484)
+	at org.springframework.amqp.rabbit.connection.CachingConnectionFactory.createConnection(CachingConnectionFactory.java:626)
+	at org.springframework.amqp.rabbit.connection.ConnectionFactoryUtils.createConnection(ConnectionFactoryUtils.java:240)
+	at org.springframework.amqp.rabbit.core.RabbitTemplate.doExecute(RabbitTemplate.java:1797)
+	at org.springframework.amqp.rabbit.core.RabbitTemplate.execute(RabbitTemplate.java:1771)
+	at org.springframework.amqp.rabbit.core.RabbitTemplate.execute(RabbitTemplate.java:1752)
+	at org.springframework.amqp.rabbit.core.RabbitAdmin.getQueueProperties(RabbitAdmin.java:345)
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.redeclareElementsIfNecessary(AbstractMessageListenerContainer.java:1604)
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer$AsyncMessageProcessingConsumer.run(SimpleMessageListenerContainer.java:995)
+	at java.base/java.lang.Thread.run(Thread.java:844)
+Caused by: java.net.ConnectException: Connection refused (Connection refused)
+	at java.base/java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.base/java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:400)
+	at java.base/java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:243)
+	at java.base/java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:225)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:402)
+	at java.base/java.net.Socket.connect(Socket.java:591)
+	at com.rabbitmq.client.impl.SocketFrameHandlerFactory.create(SocketFrameHandlerFactory.java:60)
+	at com.rabbitmq.client.ConnectionFactory.newConnection(ConnectionFactory.java:955)
+	at com.rabbitmq.client.ConnectionFactory.newConnection(ConnectionFactory.java:907)
+	at com.rabbitmq.client.ConnectionFactory.newConnection(ConnectionFactory.java:847)
+	at org.springframework.amqp.rabbit.connection.AbstractConnectionFactory.createBareConnection(AbstractConnectionFactory.java:457)
+	... 9 common frames omitted
+2018-08-19 23:40:17,925 INFO (AbstractConnectionFactory.java:455)- Attempting to connect to: [localhost:15672]
+2018-08-19 23:40:22,946 INFO (DirectJDKLog.java:180)- Starting ProtocolHandler ["http-nio-8080"]
+2018-08-19 23:40:22,957 INFO (DirectJDKLog.java:180)- Using a shared selector for servlet write/read
+2018-08-19 23:40:22,974 INFO (TomcatWebServer.java:206)- Tomcat started on port(s): 8080 (http) with context path ''
+2018-08-19 23:40:22,982 INFO (StartupInfoLogger.java:59)- Started DemoApplication in 16.679 seconds (JVM running for 18.562)
+2018-08-19 23:40:27,989 WARN (SimpleMessageListenerContainer.java:1237)- Consumer raised exception, processing can restart if the connection factory supports it. Exception summary: org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused (Connection refused)
+2018-08-19 23:40:27,991 INFO (SimpleMessageListenerContainer.java:1212)- Restarting Consumer@25db7e8a: tags=[{}], channel=null, acknowledgeMode=AUTO local queue size=0
+2018-08-19 23:40:27,995 INFO (AbstractConnectionFactory.java:455)- Attempting to connect to: [localhost:15672]
+2018-08-19 23:40:33,000 ERROR (AbstractMessageListenerContainer.java:1618)- Failed to check/redeclare auto-delete queue(s).
+org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused (Connection refused)
+	at org.springframework.amqp.rabbit.support.RabbitExceptionTranslator.convertRabbitAccessException(RabbitExceptionTranslator.java:62)
+	at org.springframework.amqp.rabbit.connection.AbstractConnectionFactory.createBareConnection(AbstractConnectionFactory.java:484)
+	at org.springframework.amqp.rabbit.connection.CachingConnectionFactory.createConnection(CachingConnectionFactory.java:626)
+	at org.springframework.amqp.rabbit.connection.ConnectionFactoryUtils.createConnection(ConnectionFactoryUtils.java:240)
+	at org.springframework.amqp.rabbit.core.RabbitTemplate.doExecute(RabbitTemplate.java:1797)
+	at org.springframework.amqp.rabbit.core.RabbitTemplate.execute(RabbitTemplate.java:1771)
+	at org.springframework.amqp.rabbit.core.RabbitTemplate.execute(RabbitTemplate.java:1752)
+	at org.springframework.amqp.rabbit.core.RabbitAdmin.getQueueProperties(RabbitAdmin.java:345)
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.redeclareElementsIfNecessary(AbstractMessageListenerContainer.java:1604)
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer$AsyncMessageProcessingConsumer.run(SimpleMessageListenerContainer.java:995)
+	at java.base/java.lang.Thread.run(Thread.java:844)
+Caused by: java.net.ConnectException: Connection refused (Connection refused)
+	at java.base/java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.base/java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:400)
+	at java.base/java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:243)
+	at java.base/java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:225)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:402)
+	at java.base/java.net.Socket.connect(Socket.java:591)
+	at com.rabbitmq.client.impl.SocketFrameHandlerFactory.create(SocketFrameHandlerFactory.java:60)
+	at com.rabbitmq.client.ConnectionFactory.newConnection(ConnectionFactory.java:955)
+	at com.rabbitmq.client.ConnectionFactory.newConnection(ConnectionFactory.java:907)
+	at com.rabbitmq.client.ConnectionFactory.newConnection(ConnectionFactory.java:847)
+	at org.springframework.amqp.rabbit.connection.AbstractConnectionFactory.createBareConnection(AbstractConnectionFactory.java:457)
+	... 9 common frames omitted
+2018-08-19 23:40:33,002 INFO (AbstractConnectionFactory.java:455)- Attempting to connect to: [localhost:15672]
+2018-08-19 23:40:43,054 WARN (SimpleMessageListenerContainer.java:1237)- Consumer raised exception, processing can restart if the connection factory supports it. Exception summary: org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused (Connection refused)
+2018-08-19 23:40:43,055 INFO (SimpleMessageListenerContainer.java:1212)- Restarting Consumer@6abbf076: tags=[{}], channel=null, acknowledgeMode=AUTO local queue size=0
+2018-08-19 23:40:43,055 INFO (AbstractConnectionFactory.java:455)- Attempting to connect to: [localhost:15672]
+2018-08-19 23:40:48,060 ERROR (AbstractMessageListenerContainer.java:1618)- Failed to check/redeclare auto-delete queue(s).
+org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused (Connection refused)
+	at org.springframework.amqp.rabbit.support.RabbitExceptionTranslator.convertRabbitAccessException(RabbitExceptionTranslator.java:62)
+	at org.springframework.amqp.rabbit.connection.AbstractConnectionFactory.createBareConnection(AbstractConnectionFactory.java:484)
+	at org.springframework.amqp.rabbit.connection.CachingConnectionFactory.createConnection(CachingConnectionFactory.java:626)
+	at org.springframework.amqp.rabbit.connection.ConnectionFactoryUtils.createConnection(ConnectionFactoryUtils.java:240)
+	at org.springframework.amqp.rabbit.core.RabbitTemplate.doExecute(RabbitTemplate.java:1797)
+	at org.springframework.amqp.rabbit.core.RabbitTemplate.execute(RabbitTemplate.java:1771)
+	at org.springframework.amqp.rabbit.core.RabbitTemplate.execute(RabbitTemplate.java:1752)
+	at org.springframework.amqp.rabbit.core.RabbitAdmin.getQueueProperties(RabbitAdmin.java:345)
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.redeclareElementsIfNecessary(AbstractMessageListenerContainer.java:1604)
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer$AsyncMessageProcessingConsumer.run(SimpleMessageListenerContainer.java:995)
+	at java.base/java.lang.Thread.run(Thread.java:844)
+Caused by: java.net.ConnectException: Connection refused (Connection refused)
+	at java.base/java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.base/java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:400)
+	at java.base/java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:243)
+	at java.base/java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:225)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:402)
+	at java.base/java.net.Socket.connect(Socket.java:591)
+	at com.rabbitmq.client.impl.SocketFrameHandlerFactory.create(SocketFrameHandlerFactory.java:60)
+	at com.rabbitmq.client.ConnectionFactory.newConnection(ConnectionFactory.java:955)
+	at com.rabbitmq.client.ConnectionFactory.newConnection(ConnectionFactory.java:907)
+	at com.rabbitmq.client.ConnectionFactory.newConnection(ConnectionFactory.java:847)
+	at org.springframework.amqp.rabbit.connection.AbstractConnectionFactory.createBareConnection(AbstractConnectionFactory.java:457)
+	... 9 common frames omitted
+2018-08-19 23:40:48,062 INFO (AbstractConnectionFactory.java:455)- Attempting to connect to: [localhost:15672]
+2018-08-19 23:40:58,128 WARN (SimpleMessageListenerContainer.java:1237)- Consumer raised exception, processing can restart if the connection factory supports it. Exception summary: org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused (Connection refused)
+2018-08-19 23:40:58,131 INFO (SimpleMessageListenerContainer.java:1212)- Restarting Consumer@66821142: tags=[{}], channel=null, acknowledgeMode=AUTO local queue size=0
+2018-08-19 23:40:58,132 INFO (AbstractConnectionFactory.java:455)- Attempting to connect to: [localhost:15672]
+2018-08-19 23:41:03,136 ERROR (AbstractMessageListenerContainer.java:1618)- Failed to check/redeclare auto-delete queue(s).
+org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused (Connection refused)
+	at org.springframework.amqp.rabbit.support.RabbitExceptionTranslator.convertRabbitAccessException(RabbitExceptionTranslator.java:62)
+	at org.springframework.amqp.rabbit.connection.AbstractConnectionFactory.createBareConnection(AbstractConnectionFactory.java:484)
+	at org.springframework.amqp.rabbit.connection.CachingConnectionFactory.createConnection(CachingConnectionFactory.java:626)
+	at org.springframework.amqp.rabbit.connection.ConnectionFactoryUtils.createConnection(ConnectionFactoryUtils.java:240)
+	at org.springframework.amqp.rabbit.core.RabbitTemplate.doExecute(RabbitTemplate.java:1797)
+	at org.springframework.amqp.rabbit.core.RabbitTemplate.execute(RabbitTemplate.java:1771)
+	at org.springframework.amqp.rabbit.core.RabbitTemplate.execute(RabbitTemplate.java:1752)
+	at org.springframework.amqp.rabbit.core.RabbitAdmin.getQueueProperties(RabbitAdmin.java:345)
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.redeclareElementsIfNecessary(AbstractMessageListenerContainer.java:1604)
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer$AsyncMessageProcessingConsumer.run(SimpleMessageListenerContainer.java:995)
+	at java.base/java.lang.Thread.run(Thread.java:844)
+Caused by: java.net.ConnectException: Connection refused (Connection refused)
+	at java.base/java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.base/java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:400)
+	at java.base/java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:243)
+	at java.base/java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:225)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:402)
+	at java.base/java.net.Socket.connect(Socket.java:591)
+	at com.rabbitmq.client.impl.SocketFrameHandlerFactory.create(SocketFrameHandlerFactory.java:60)
+	at com.rabbitmq.client.ConnectionFactory.newConnection(ConnectionFactory.java:955)
+	at com.rabbitmq.client.ConnectionFactory.newConnection(ConnectionFactory.java:907)
+	at com.rabbitmq.client.ConnectionFactory.newConnection(ConnectionFactory.java:847)
+	at org.springframework.amqp.rabbit.connection.AbstractConnectionFactory.createBareConnection(AbstractConnectionFactory.java:457)
+	... 9 common frames omitted
+2018-08-19 23:41:03,137 INFO (AbstractConnectionFactory.java:455)- Attempting to connect to: [localhost:15672]
+2018-08-19 23:41:03,633 INFO (DirectJDKLog.java:180)- Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-08-19 23:41:03,633 INFO (FrameworkServlet.java:494)- FrameworkServlet 'dispatcherServlet': initialization started
+2018-08-19 23:41:03,657 INFO (FrameworkServlet.java:509)- FrameworkServlet 'dispatcherServlet': initialization completed in 24 ms
+2018-08-19 23:41:08,140 INFO (AbstractConnectionFactory.java:455)- Attempting to connect to: [localhost:15672]
+2018-08-19 23:41:13,160 ERROR (DirectJDKLog.java:182)- Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused (Connection refused)] with root cause
+java.net.ConnectException: Connection refused (Connection refused)
+	at java.base/java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.base/java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:400)
+	at java.base/java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:243)
+	at java.base/java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:225)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:402)
+	at java.base/java.net.Socket.connect(Socket.java:591)
+	at com.rabbitmq.client.impl.SocketFrameHandlerFactory.create(SocketFrameHandlerFactory.java:60)
+	at com.rabbitmq.client.ConnectionFactory.newConnection(ConnectionFactory.java:955)
+	at com.rabbitmq.client.ConnectionFactory.newConnection(ConnectionFactory.java:907)
+	at com.rabbitmq.client.ConnectionFactory.newConnection(ConnectionFactory.java:847)
+	at org.springframework.amqp.rabbit.connection.AbstractConnectionFactory.createBareConnection(AbstractConnectionFactory.java:457)
+	at org.springframework.amqp.rabbit.connection.CachingConnectionFactory.createConnection(CachingConnectionFactory.java:626)
+	at org.springframework.amqp.rabbit.connection.ConnectionFactoryUtils.createConnection(ConnectionFactoryUtils.java:240)
+	at org.springframework.amqp.rabbit.core.RabbitTemplate.doExecute(RabbitTemplate.java:1797)
+	at org.springframework.amqp.rabbit.core.RabbitTemplate.execute(RabbitTemplate.java:1771)
+	at org.springframework.amqp.rabbit.core.RabbitTemplate.send(RabbitTemplate.java:859)
+	at org.springframework.amqp.rabbit.core.RabbitTemplate.convertAndSend(RabbitTemplate.java:922)
+	at org.springframework.amqp.rabbit.core.RabbitTemplate.convertAndSend(RabbitTemplate.java:905)
+	at com.shit.demo.rabbitmq.Sender.send(Sender.java:17)
+	at com.shit.demo.action.RabbitMqController.send(RabbitMqController.java:17)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:209)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:136)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:102)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:877)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:783)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:991)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:925)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:974)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:877)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:661)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:851)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:742)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HttpPutFormContentFilter.doFilterInternal(HttpPutFormContentFilter.java:109)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:198)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:493)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:800)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:800)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1471)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1135)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:844)
+2018-08-19 23:41:13,215 WARN (SimpleMessageListenerContainer.java:1237)- Consumer raised exception, processing can restart if the connection factory supports it. Exception summary: org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused (Connection refused)
+2018-08-19 23:41:13,216 INFO (SimpleMessageListenerContainer.java:1212)- Restarting Consumer@7142f345: tags=[{}], channel=null, acknowledgeMode=AUTO local queue size=0
+2018-08-19 23:41:13,217 INFO (AbstractConnectionFactory.java:455)- Attempting to connect to: [localhost:15672]
+2018-08-19 23:41:18,221 ERROR (AbstractMessageListenerContainer.java:1618)- Failed to check/redeclare auto-delete queue(s).
+org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused (Connection refused)
+	at org.springframework.amqp.rabbit.support.RabbitExceptionTranslator.convertRabbitAccessException(RabbitExceptionTranslator.java:62)
+	at org.springframework.amqp.rabbit.connection.AbstractConnectionFactory.createBareConnection(AbstractConnectionFactory.java:484)
+	at org.springframework.amqp.rabbit.connection.CachingConnectionFactory.createConnection(CachingConnectionFactory.java:626)
+	at org.springframework.amqp.rabbit.connection.ConnectionFactoryUtils.createConnection(ConnectionFactoryUtils.java:240)
+	at org.springframework.amqp.rabbit.core.RabbitTemplate.doExecute(RabbitTemplate.java:1797)
+	at org.springframework.amqp.rabbit.core.RabbitTemplate.execute(RabbitTemplate.java:1771)
+	at org.springframework.amqp.rabbit.core.RabbitTemplate.execute(RabbitTemplate.java:1752)
+	at org.springframework.amqp.rabbit.core.RabbitAdmin.getQueueProperties(RabbitAdmin.java:345)
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.redeclareElementsIfNecessary(AbstractMessageListenerContainer.java:1604)
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer$AsyncMessageProcessingConsumer.run(SimpleMessageListenerContainer.java:995)
+	at java.base/java.lang.Thread.run(Thread.java:844)
+Caused by: java.net.ConnectException: Connection refused (Connection refused)
+	at java.base/java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.base/java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:400)
+	at java.base/java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:243)
+	at java.base/java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:225)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:402)
+	at java.base/java.net.Socket.connect(Socket.java:591)
+	at com.rabbitmq.client.impl.SocketFrameHandlerFactory.create(SocketFrameHandlerFactory.java:60)
+	at com.rabbitmq.client.ConnectionFactory.newConnection(ConnectionFactory.java:955)
+	at com.rabbitmq.client.ConnectionFactory.newConnection(ConnectionFactory.java:907)
+	at com.rabbitmq.client.ConnectionFactory.newConnection(ConnectionFactory.java:847)
+	at org.springframework.amqp.rabbit.connection.AbstractConnectionFactory.createBareConnection(AbstractConnectionFactory.java:457)
+	... 9 common frames omitted
+2018-08-19 23:41:18,222 INFO (AbstractConnectionFactory.java:455)- Attempting to connect to: [localhost:15672]
+2018-08-19 23:41:28,290 WARN (SimpleMessageListenerContainer.java:1237)- Consumer raised exception, processing can restart if the connection factory supports it. Exception summary: org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused (Connection refused)
+2018-08-19 23:41:28,291 INFO (SimpleMessageListenerContainer.java:1212)- Restarting Consumer@335265f7: tags=[{}], channel=null, acknowledgeMode=AUTO local queue size=0
+2018-08-19 23:41:28,294 INFO (AbstractConnectionFactory.java:455)- Attempting to connect to: [localhost:15672]
+2018-08-19 23:41:33,299 ERROR (AbstractMessageListenerContainer.java:1618)- Failed to check/redeclare auto-delete queue(s).
+org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused (Connection refused)
+	at org.springframework.amqp.rabbit.support.RabbitExceptionTranslator.convertRabbitAccessException(RabbitExceptionTranslator.java:62)
+	at org.springframework.amqp.rabbit.connection.AbstractConnectionFactory.createBareConnection(AbstractConnectionFactory.java:484)
+	at org.springframework.amqp.rabbit.connection.CachingConnectionFactory.createConnection(CachingConnectionFactory.java:626)
+	at org.springframework.amqp.rabbit.connection.ConnectionFactoryUtils.createConnection(ConnectionFactoryUtils.java:240)
+	at org.springframework.amqp.rabbit.core.RabbitTemplate.doExecute(RabbitTemplate.java:1797)
+	at org.springframework.amqp.rabbit.core.RabbitTemplate.execute(RabbitTemplate.java:1771)
+	at org.springframework.amqp.rabbit.core.RabbitTemplate.execute(RabbitTemplate.java:1752)
+	at org.springframework.amqp.rabbit.core.RabbitAdmin.getQueueProperties(RabbitAdmin.java:345)
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.redeclareElementsIfNecessary(AbstractMessageListenerContainer.java:1604)
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer$AsyncMessageProcessingConsumer.run(SimpleMessageListenerContainer.java:995)
+	at java.base/java.lang.Thread.run(Thread.java:844)
+Caused by: java.net.ConnectException: Connection refused (Connection refused)
+	at java.base/java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.base/java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:400)
+	at java.base/java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:243)
+	at java.base/java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:225)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:402)
+	at java.base/java.net.Socket.connect(Socket.java:591)
+	at com.rabbitmq.client.impl.SocketFrameHandlerFactory.create(SocketFrameHandlerFactory.java:60)
+	at com.rabbitmq.client.ConnectionFactory.newConnection(ConnectionFactory.java:955)
+	at com.rabbitmq.client.ConnectionFactory.newConnection(ConnectionFactory.java:907)
+	at com.rabbitmq.client.ConnectionFactory.newConnection(ConnectionFactory.java:847)
+	at org.springframework.amqp.rabbit.connection.AbstractConnectionFactory.createBareConnection(AbstractConnectionFactory.java:457)
+	... 9 common frames omitted
+2018-08-19 23:41:33,300 INFO (AbstractConnectionFactory.java:455)- Attempting to connect to: [localhost:15672]
+2018-08-19 23:41:43,374 WARN (SimpleMessageListenerContainer.java:1237)- Consumer raised exception, processing can restart if the connection factory supports it. Exception summary: org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused (Connection refused)
+2018-08-19 23:41:43,374 INFO (SimpleMessageListenerContainer.java:1212)- Restarting Consumer@52c1f3a1: tags=[{}], channel=null, acknowledgeMode=AUTO local queue size=0
+2018-08-19 23:41:43,376 INFO (AbstractConnectionFactory.java:455)- Attempting to connect to: [localhost:15672]
+2018-08-19 23:41:48,382 ERROR (AbstractMessageListenerContainer.java:1618)- Failed to check/redeclare auto-delete queue(s).
+org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused (Connection refused)
+	at org.springframework.amqp.rabbit.support.RabbitExceptionTranslator.convertRabbitAccessException(RabbitExceptionTranslator.java:62)
+	at org.springframework.amqp.rabbit.connection.AbstractConnectionFactory.createBareConnection(AbstractConnectionFactory.java:484)
+	at org.springframework.amqp.rabbit.connection.CachingConnectionFactory.createConnection(CachingConnectionFactory.java:626)
+	at org.springframework.amqp.rabbit.connection.ConnectionFactoryUtils.createConnection(ConnectionFactoryUtils.java:240)
+	at org.springframework.amqp.rabbit.core.RabbitTemplate.doExecute(RabbitTemplate.java:1797)
+	at org.springframework.amqp.rabbit.core.RabbitTemplate.execute(RabbitTemplate.java:1771)
+	at org.springframework.amqp.rabbit.core.RabbitTemplate.execute(RabbitTemplate.java:1752)
+	at org.springframework.amqp.rabbit.core.RabbitAdmin.getQueueProperties(RabbitAdmin.java:345)
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.redeclareElementsIfNecessary(AbstractMessageListenerContainer.java:1604)
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer$AsyncMessageProcessingConsumer.run(SimpleMessageListenerContainer.java:995)
+	at java.base/java.lang.Thread.run(Thread.java:844)
+Caused by: java.net.ConnectException: Connection refused (Connection refused)
+	at java.base/java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.base/java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:400)
+	at java.base/java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:243)
+	at java.base/java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:225)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:402)
+	at java.base/java.net.Socket.connect(Socket.java:591)
+	at com.rabbitmq.client.impl.SocketFrameHandlerFactory.create(SocketFrameHandlerFactory.java:60)
+	at com.rabbitmq.client.ConnectionFactory.newConnection(ConnectionFactory.java:955)
+	at com.rabbitmq.client.ConnectionFactory.newConnection(ConnectionFactory.java:907)
+	at com.rabbitmq.client.ConnectionFactory.newConnection(ConnectionFactory.java:847)
+	at org.springframework.amqp.rabbit.connection.AbstractConnectionFactory.createBareConnection(AbstractConnectionFactory.java:457)
+	... 9 common frames omitted
+2018-08-19 23:41:48,383 INFO (AbstractConnectionFactory.java:455)- Attempting to connect to: [localhost:15672]
+2018-08-19 23:41:58,440 WARN (SimpleMessageListenerContainer.java:1237)- Consumer raised exception, processing can restart if the connection factory supports it. Exception summary: org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused (Connection refused)
+2018-08-19 23:41:58,441 INFO (SimpleMessageListenerContainer.java:1212)- Restarting Consumer@5e80f5ae: tags=[{}], channel=null, acknowledgeMode=AUTO local queue size=0
+2018-08-19 23:41:58,442 INFO (AbstractConnectionFactory.java:455)- Attempting to connect to: [localhost:15672]
+2018-08-19 23:42:03,447 ERROR (AbstractMessageListenerContainer.java:1618)- Failed to check/redeclare auto-delete queue(s).
+org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused (Connection refused)
+	at org.springframework.amqp.rabbit.support.RabbitExceptionTranslator.convertRabbitAccessException(RabbitExceptionTranslator.java:62)
+	at org.springframework.amqp.rabbit.connection.AbstractConnectionFactory.createBareConnection(AbstractConnectionFactory.java:484)
+	at org.springframework.amqp.rabbit.connection.CachingConnectionFactory.createConnection(CachingConnectionFactory.java:626)
+	at org.springframework.amqp.rabbit.connection.ConnectionFactoryUtils.createConnection(ConnectionFactoryUtils.java:240)
+	at org.springframework.amqp.rabbit.core.RabbitTemplate.doExecute(RabbitTemplate.java:1797)
+	at org.springframework.amqp.rabbit.core.RabbitTemplate.execute(RabbitTemplate.java:1771)
+	at org.springframework.amqp.rabbit.core.RabbitTemplate.execute(RabbitTemplate.java:1752)
+	at org.springframework.amqp.rabbit.core.RabbitAdmin.getQueueProperties(RabbitAdmin.java:345)
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.redeclareElementsIfNecessary(AbstractMessageListenerContainer.java:1604)
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer$AsyncMessageProcessingConsumer.run(SimpleMessageListenerContainer.java:995)
+	at java.base/java.lang.Thread.run(Thread.java:844)
+Caused by: java.net.ConnectException: Connection refused (Connection refused)
+	at java.base/java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.base/java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:400)
+	at java.base/java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:243)
+	at java.base/java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:225)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:402)
+	at java.base/java.net.Socket.connect(Socket.java:591)
+	at com.rabbitmq.client.impl.SocketFrameHandlerFactory.create(SocketFrameHandlerFactory.java:60)
+	at com.rabbitmq.client.ConnectionFactory.newConnection(ConnectionFactory.java:955)
+	at com.rabbitmq.client.ConnectionFactory.newConnection(ConnectionFactory.java:907)
+	at com.rabbitmq.client.ConnectionFactory.newConnection(ConnectionFactory.java:847)
+	at org.springframework.amqp.rabbit.connection.AbstractConnectionFactory.createBareConnection(AbstractConnectionFactory.java:457)
+	... 9 common frames omitted
+2018-08-19 23:42:03,448 INFO (AbstractConnectionFactory.java:455)- Attempting to connect to: [localhost:15672]
+2018-08-19 23:42:03,931 INFO (AbstractApplicationContext.java:993)- Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@3f82f2a5: startup date [Sun Aug 19 23:40:06 CST 2018]; root of context hierarchy
+2018-08-19 23:42:03,936 INFO (DefaultLifecycleProcessor.java:366)- Stopping beans in phase 2147483647
+2018-08-19 23:42:03,940 INFO (SimpleMessageListenerContainer.java:534)- Waiting for workers to finish.
+2018-08-19 23:42:03,941 INFO (SimpleMessageListenerContainer.java:537)- Successfully waited for workers to finish.
+2018-08-19 23:42:03,941 INFO (DefaultLifecycleProcessor.java:366)- Stopping beans in phase 2147483547
+2018-08-19 23:42:03,942 INFO (DefaultLifecycleProcessor.java:366)- Stopping beans in phase 0
+2018-08-19 23:42:03,952 INFO (AbstractMessageListenerContainer.java:1089)- Shutdown ignored - container is not active already
+2018-08-19 23:42:03,953 INFO (MBeanExporter.java:451)- Unregistering JMX-exposed beans on shutdown
+2018-08-19 23:42:03,953 INFO (MBeanRegistrationSupport.java:185)- Unregistering JMX-exposed beans
+2018-08-19 23:42:08,454 WARN (ForgivingExceptionHandler.java:115)- An unexpected connection driver error occured (Exception message: Socket closed)
+2018-08-19 23:42:12,135 INFO (StartupInfoLogger.java:50)- Starting DemoApplication on shitdeMacBook-Pro.local with PID 19267 (/Users/shitchan/IdeaProjects/demo/target/classes started by shitchan in /Users/shitchan/IdeaProjects/demo)
+2018-08-19 23:42:12,155 INFO (SpringApplication.java:662)- No active profile set, falling back to default profiles: default
+2018-08-19 23:42:12,302 INFO (AbstractApplicationContext.java:590)- Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@5ca4739e: startup date [Sun Aug 19 23:42:12 CST 2018]; root of context hierarchy
+2018-08-19 23:42:13,659 WARN (ClassPathMapperScanner.java:166)- No MyBatis mapper was found in '[demo.repository.master]' package. Please check your configuration.
+2018-08-19 23:42:13,661 WARN (ClassPathMapperScanner.java:166)- No MyBatis mapper was found in '[demo.repository.slave]' package. Please check your configuration.
+2018-08-19 23:42:13,918 INFO (RepositoryConfigurationDelegate.java:163)- Multiple Spring Data modules found, entering strict repository configuration mode!
+2018-08-19 23:42:13,951 INFO (RepositoryConfigurationDelegate.java:163)- Multiple Spring Data modules found, entering strict repository configuration mode!
+2018-08-19 23:42:14,743 INFO (PostProcessorRegistrationDelegate.java:326)- Bean 'org.springframework.amqp.rabbit.annotation.RabbitBootstrapConfiguration' of type [org.springframework.amqp.rabbit.annotation.RabbitBootstrapConfiguration$$EnhancerBySpringCGLIB$$66bb6370] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-08-19 23:42:14,800 INFO (PostProcessorRegistrationDelegate.java:326)- Bean 'org.springframework.kafka.annotation.KafkaBootstrapConfiguration' of type [org.springframework.kafka.annotation.KafkaBootstrapConfiguration$$EnhancerBySpringCGLIB$$7401b6c5] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-08-19 23:42:14,963 INFO (PostProcessorRegistrationDelegate.java:326)- Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$a04fa542] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-08-19 23:42:15,674 INFO (TomcatWebServer.java:91)- Tomcat initialized with port(s): 8080 (http)
+2018-08-19 23:42:15,692 INFO (DirectJDKLog.java:180)- Initializing ProtocolHandler ["http-nio-8080"]
+2018-08-19 23:42:15,711 INFO (DirectJDKLog.java:180)- Starting service [Tomcat]
+2018-08-19 23:42:15,712 INFO (DirectJDKLog.java:180)- Starting Servlet Engine: Apache Tomcat/8.5.32
+2018-08-19 23:42:15,719 INFO (DirectJDKLog.java:180)- The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/shitchan/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+2018-08-19 23:42:15,805 INFO (DirectJDKLog.java:180)- Initializing Spring embedded WebApplicationContext
+2018-08-19 23:42:15,806 INFO (ServletWebServerApplicationContext.java:285)- Root WebApplicationContext: initialization completed in 3504 ms
+2018-08-19 23:42:15,881 INFO (ServletRegistrationBean.java:187)- Servlet dispatcherServlet mapped to [/]
+2018-08-19 23:42:15,887 INFO (AbstractFilterRegistrationBean.java:245)- Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-08-19 23:42:15,887 INFO (AbstractFilterRegistrationBean.java:245)- Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-08-19 23:42:15,888 INFO (AbstractFilterRegistrationBean.java:245)- Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-08-19 23:42:15,888 INFO (AbstractFilterRegistrationBean.java:245)- Mapping filter: 'requestContextFilter' to: [/*]
+2018-08-19 23:42:16,410 INFO (SLF4JLogger.java:71)- Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2018-08-19 23:42:16,460 INFO (SLF4JLogger.java:71)- Opened connection [connectionId{localValue:1, serverValue:111}] to localhost:27017
+2018-08-19 23:42:16,465 INFO (SLF4JLogger.java:71)- Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 0, 0]}, minWireVersion=0, maxWireVersion=7, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=3581498}
+2018-08-19 23:42:16,968 INFO (AbstractUrlHandlerMapping.java:373)- Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-08-19 23:42:17,307 INFO (RequestMappingHandlerAdapter.java:574)- Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@5ca4739e: startup date [Sun Aug 19 23:42:12 CST 2018]; root of context hierarchy
+2018-08-19 23:42:17,403 INFO (AbstractHandlerMethodMapping.java:547)- Mapped "{[/demo/find],methods=[POST]}" onto public com.shit.demo.bean.Result com.shit.demo.action.DemoController.find(com.shit.demo.bean.User,org.springframework.validation.BindingResult)
+2018-08-19 23:42:17,405 INFO (AbstractHandlerMethodMapping.java:547)- Mapped "{[/demo/hello]}" onto public com.shit.demo.bean.Result com.shit.demo.action.DemoController.say()
+2018-08-19 23:42:17,406 INFO (AbstractHandlerMethodMapping.java:547)- Mapped "{[/mongodb/test]}" onto public com.shit.demo.bean.Result com.shit.demo.action.MongoController.test()
+2018-08-19 23:42:17,407 INFO (AbstractHandlerMethodMapping.java:547)- Mapped "{[/postgresql/test]}" onto public com.shit.demo.bean.Result com.shit.demo.action.PostgresqlController.test()
+2018-08-19 23:42:17,408 INFO (AbstractHandlerMethodMapping.java:547)- Mapped "{[/rabbitmq/hello],methods=[POST]}" onto public com.shit.demo.bean.Result com.shit.demo.action.RabbitMqController.send()
+2018-08-19 23:42:17,409 INFO (AbstractHandlerMethodMapping.java:547)- Mapped "{[/redis/get],methods=[POST]}" onto public com.shit.demo.bean.Result com.shit.demo.action.RedisController.get()
+2018-08-19 23:42:17,410 INFO (AbstractHandlerMethodMapping.java:547)- Mapped "{[/redis/hash],methods=[POST]}" onto public com.shit.demo.bean.Result com.shit.demo.action.RedisController.hash()
+2018-08-19 23:42:17,410 INFO (AbstractHandlerMethodMapping.java:547)- Mapped "{[/redis/list],methods=[POST]}" onto public com.shit.demo.bean.Result com.shit.demo.action.RedisController.list()
+2018-08-19 23:42:17,411 INFO (AbstractHandlerMethodMapping.java:547)- Mapped "{[/redis/set],methods=[POST]}" onto public com.shit.demo.bean.Result com.shit.demo.action.RedisController.set()
+2018-08-19 23:42:17,411 INFO (AbstractHandlerMethodMapping.java:547)- Mapped "{[/redis/delete],methods=[POST]}" onto public com.shit.demo.bean.Result com.shit.demo.action.RedisController.delete()
+2018-08-19 23:42:17,416 INFO (AbstractHandlerMethodMapping.java:547)- Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-08-19 23:42:17,417 INFO (AbstractHandlerMethodMapping.java:547)- Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-08-19 23:42:17,461 INFO (AbstractUrlHandlerMapping.java:373)- Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-08-19 23:42:17,461 INFO (AbstractUrlHandlerMapping.java:373)- Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-08-19 23:42:17,846 INFO (SLF4JLogger.java:71)- Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2018-08-19 23:42:17,851 INFO (SLF4JLogger.java:71)- Opened connection [connectionId{localValue:2, serverValue:112}] to localhost:27017
+2018-08-19 23:42:17,853 INFO (SLF4JLogger.java:71)- Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 0, 0]}, minWireVersion=0, maxWireVersion=7, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=808340}
+2018-08-19 23:42:18,384 INFO (OptionalLiveReloadServer.java:57)- LiveReload server is running on port 35729
+2018-08-19 23:42:18,428 INFO (MBeanExporter.java:433)- Registering beans for JMX exposure on startup
+2018-08-19 23:42:18,428 INFO (MBeanExporter.java:895)- Bean with name 'masterDataSource' has been autodetected for JMX exposure
+2018-08-19 23:42:18,429 INFO (MBeanExporter.java:895)- Bean with name 'slaveDataSource' has been autodetected for JMX exposure
+2018-08-19 23:42:18,438 INFO (MBeanExporter.java:895)- Bean with name 'rabbitConnectionFactory' has been autodetected for JMX exposure
+2018-08-19 23:42:18,442 INFO (MBeanExporter.java:668)- Located MBean 'masterDataSource': registering with JMX server as MBean [com.zaxxer.hikari:name=masterDataSource,type=HikariDataSource]
+2018-08-19 23:42:18,444 INFO (MBeanExporter.java:668)- Located MBean 'slaveDataSource': registering with JMX server as MBean [com.zaxxer.hikari:name=slaveDataSource,type=HikariDataSource]
+2018-08-19 23:42:18,445 INFO (MBeanExporter.java:675)- Located managed bean 'rabbitConnectionFactory': registering with JMX server as MBean [org.springframework.amqp.rabbit.connection:name=rabbitConnectionFactory,type=CachingConnectionFactory]
+2018-08-19 23:42:18,486 INFO (DefaultLifecycleProcessor.java:351)- Starting beans in phase 2147483547
+2018-08-19 23:42:18,486 INFO (DefaultLifecycleProcessor.java:351)- Starting beans in phase 2147483647
+2018-08-19 23:42:18,492 INFO (AbstractConnectionFactory.java:455)- Attempting to connect to: [localhost:15672]
+2018-08-19 23:42:23,506 ERROR (AbstractMessageListenerContainer.java:1618)- Failed to check/redeclare auto-delete queue(s).
+org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused (Connection refused)
+	at org.springframework.amqp.rabbit.support.RabbitExceptionTranslator.convertRabbitAccessException(RabbitExceptionTranslator.java:62)
+	at org.springframework.amqp.rabbit.connection.AbstractConnectionFactory.createBareConnection(AbstractConnectionFactory.java:484)
+	at org.springframework.amqp.rabbit.connection.CachingConnectionFactory.createConnection(CachingConnectionFactory.java:626)
+	at org.springframework.amqp.rabbit.connection.ConnectionFactoryUtils.createConnection(ConnectionFactoryUtils.java:240)
+	at org.springframework.amqp.rabbit.core.RabbitTemplate.doExecute(RabbitTemplate.java:1797)
+	at org.springframework.amqp.rabbit.core.RabbitTemplate.execute(RabbitTemplate.java:1771)
+	at org.springframework.amqp.rabbit.core.RabbitTemplate.execute(RabbitTemplate.java:1752)
+	at org.springframework.amqp.rabbit.core.RabbitAdmin.getQueueProperties(RabbitAdmin.java:345)
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.redeclareElementsIfNecessary(AbstractMessageListenerContainer.java:1604)
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer$AsyncMessageProcessingConsumer.run(SimpleMessageListenerContainer.java:995)
+	at java.base/java.lang.Thread.run(Thread.java:844)
+Caused by: java.net.ConnectException: Connection refused (Connection refused)
+	at java.base/java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.base/java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:400)
+	at java.base/java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:243)
+	at java.base/java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:225)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:402)
+	at java.base/java.net.Socket.connect(Socket.java:591)
+	at com.rabbitmq.client.impl.SocketFrameHandlerFactory.create(SocketFrameHandlerFactory.java:60)
+	at com.rabbitmq.client.ConnectionFactory.newConnection(ConnectionFactory.java:955)
+	at com.rabbitmq.client.ConnectionFactory.newConnection(ConnectionFactory.java:907)
+	at com.rabbitmq.client.ConnectionFactory.newConnection(ConnectionFactory.java:847)
+	at org.springframework.amqp.rabbit.connection.AbstractConnectionFactory.createBareConnection(AbstractConnectionFactory.java:457)
+	... 9 common frames omitted
+2018-08-19 23:42:23,511 INFO (AbstractConnectionFactory.java:455)- Attempting to connect to: [localhost:15672]
+2018-08-19 23:42:28,535 INFO (DirectJDKLog.java:180)- Starting ProtocolHandler ["http-nio-8080"]
+2018-08-19 23:42:28,548 INFO (DirectJDKLog.java:180)- Using a shared selector for servlet write/read
+2018-08-19 23:42:28,567 INFO (TomcatWebServer.java:206)- Tomcat started on port(s): 8080 (http) with context path ''
+2018-08-19 23:42:28,577 INFO (StartupInfoLogger.java:59)- Started DemoApplication in 16.937 seconds (JVM running for 18.716)
+2018-08-19 23:42:33,576 WARN (SimpleMessageListenerContainer.java:1237)- Consumer raised exception, processing can restart if the connection factory supports it. Exception summary: org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused (Connection refused)
+2018-08-19 23:42:33,580 INFO (SimpleMessageListenerContainer.java:1212)- Restarting Consumer@7c12714e: tags=[{}], channel=null, acknowledgeMode=AUTO local queue size=0
+2018-08-19 23:42:33,584 INFO (AbstractConnectionFactory.java:455)- Attempting to connect to: [localhost:15672]
+2018-08-19 23:42:38,588 WARN (ForgivingExceptionHandler.java:115)- An unexpected connection driver error occured (Exception message: Socket closed)
+2018-08-19 23:42:38,588 ERROR (AbstractMessageListenerContainer.java:1618)- Failed to check/redeclare auto-delete queue(s).
+org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused (Connection refused)
+	at org.springframework.amqp.rabbit.support.RabbitExceptionTranslator.convertRabbitAccessException(RabbitExceptionTranslator.java:62)
+	at org.springframework.amqp.rabbit.connection.AbstractConnectionFactory.createBareConnection(AbstractConnectionFactory.java:484)
+	at org.springframework.amqp.rabbit.connection.CachingConnectionFactory.createConnection(CachingConnectionFactory.java:626)
+	at org.springframework.amqp.rabbit.connection.ConnectionFactoryUtils.createConnection(ConnectionFactoryUtils.java:240)
+	at org.springframework.amqp.rabbit.core.RabbitTemplate.doExecute(RabbitTemplate.java:1797)
+	at org.springframework.amqp.rabbit.core.RabbitTemplate.execute(RabbitTemplate.java:1771)
+	at org.springframework.amqp.rabbit.core.RabbitTemplate.execute(RabbitTemplate.java:1752)
+	at org.springframework.amqp.rabbit.core.RabbitAdmin.getQueueProperties(RabbitAdmin.java:345)
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.redeclareElementsIfNecessary(AbstractMessageListenerContainer.java:1604)
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer$AsyncMessageProcessingConsumer.run(SimpleMessageListenerContainer.java:995)
+	at java.base/java.lang.Thread.run(Thread.java:844)
+Caused by: java.net.ConnectException: Connection refused (Connection refused)
+	at java.base/java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.base/java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:400)
+	at java.base/java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:243)
+	at java.base/java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:225)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:402)
+	at java.base/java.net.Socket.connect(Socket.java:591)
+	at com.rabbitmq.client.impl.SocketFrameHandlerFactory.create(SocketFrameHandlerFactory.java:60)
+	at com.rabbitmq.client.ConnectionFactory.newConnection(ConnectionFactory.java:955)
+	at com.rabbitmq.client.ConnectionFactory.newConnection(ConnectionFactory.java:907)
+	at com.rabbitmq.client.ConnectionFactory.newConnection(ConnectionFactory.java:847)
+	at org.springframework.amqp.rabbit.connection.AbstractConnectionFactory.createBareConnection(AbstractConnectionFactory.java:457)
+	... 9 common frames omitted
+2018-08-19 23:42:38,588 INFO (AbstractConnectionFactory.java:455)- Attempting to connect to: [localhost:15672]
+2018-08-19 23:42:43,591 WARN (ForgivingExceptionHandler.java:115)- An unexpected connection driver error occured (Exception message: Socket closed)
+2018-08-19 23:42:48,670 WARN (SimpleMessageListenerContainer.java:1237)- Consumer raised exception, processing can restart if the connection factory supports it. Exception summary: org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused (Connection refused)
+2018-08-19 23:42:48,672 INFO (SimpleMessageListenerContainer.java:1212)- Restarting Consumer@4bbe14f6: tags=[{}], channel=null, acknowledgeMode=AUTO local queue size=0
+2018-08-19 23:42:48,674 INFO (AbstractConnectionFactory.java:455)- Attempting to connect to: [localhost:15672]
+2018-08-19 23:42:48,849 INFO (AbstractApplicationContext.java:993)- Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@5ca4739e: startup date [Sun Aug 19 23:42:12 CST 2018]; root of context hierarchy
+2018-08-19 23:42:48,855 INFO (DefaultLifecycleProcessor.java:366)- Stopping beans in phase 2147483647
+2018-08-19 23:42:48,858 INFO (SimpleMessageListenerContainer.java:534)- Waiting for workers to finish.
+2018-08-19 23:42:48,859 INFO (SimpleMessageListenerContainer.java:537)- Successfully waited for workers to finish.
+2018-08-19 23:42:48,859 INFO (DefaultLifecycleProcessor.java:366)- Stopping beans in phase 2147483547
+2018-08-19 23:42:48,859 INFO (DefaultLifecycleProcessor.java:366)- Stopping beans in phase 0
+2018-08-19 23:42:48,867 INFO (AbstractMessageListenerContainer.java:1089)- Shutdown ignored - container is not active already
+2018-08-19 23:42:48,867 INFO (MBeanExporter.java:451)- Unregistering JMX-exposed beans on shutdown
+2018-08-19 23:42:48,868 INFO (MBeanRegistrationSupport.java:185)- Unregistering JMX-exposed beans
+2018-08-19 23:42:53,679 ERROR (AbstractMessageListenerContainer.java:1618)- Failed to check/redeclare auto-delete queue(s).
+org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused (Connection refused)
+	at org.springframework.amqp.rabbit.support.RabbitExceptionTranslator.convertRabbitAccessException(RabbitExceptionTranslator.java:62)
+	at org.springframework.amqp.rabbit.connection.AbstractConnectionFactory.createBareConnection(AbstractConnectionFactory.java:484)
+	at org.springframework.amqp.rabbit.connection.CachingConnectionFactory.createConnection(CachingConnectionFactory.java:626)
+	at org.springframework.amqp.rabbit.connection.ConnectionFactoryUtils.createConnection(ConnectionFactoryUtils.java:240)
+	at org.springframework.amqp.rabbit.core.RabbitTemplate.doExecute(RabbitTemplate.java:1797)
+	at org.springframework.amqp.rabbit.core.RabbitTemplate.execute(RabbitTemplate.java:1771)
+	at org.springframework.amqp.rabbit.core.RabbitTemplate.execute(RabbitTemplate.java:1752)
+	at org.springframework.amqp.rabbit.core.RabbitAdmin.getQueueProperties(RabbitAdmin.java:345)
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.redeclareElementsIfNecessary(AbstractMessageListenerContainer.java:1604)
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer$AsyncMessageProcessingConsumer.run(SimpleMessageListenerContainer.java:995)
+	at java.base/java.lang.Thread.run(Thread.java:844)
+Caused by: java.net.ConnectException: Connection refused (Connection refused)
+	at java.base/java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.base/java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:400)
+	at java.base/java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:243)
+	at java.base/java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:225)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:402)
+	at java.base/java.net.Socket.connect(Socket.java:591)
+	at com.rabbitmq.client.impl.SocketFrameHandlerFactory.create(SocketFrameHandlerFactory.java:60)
+	at com.rabbitmq.client.ConnectionFactory.newConnection(ConnectionFactory.java:955)
+	at com.rabbitmq.client.ConnectionFactory.newConnection(ConnectionFactory.java:907)
+	at com.rabbitmq.client.ConnectionFactory.newConnection(ConnectionFactory.java:847)
+	at org.springframework.amqp.rabbit.connection.AbstractConnectionFactory.createBareConnection(AbstractConnectionFactory.java:457)
+	... 9 common frames omitted
+2018-08-19 23:42:57,262 INFO (StartupInfoLogger.java:50)- Starting DemoApplication on shitdeMacBook-Pro.local with PID 19404 (/Users/shitchan/IdeaProjects/demo/target/classes started by shitchan in /Users/shitchan/IdeaProjects/demo)
+2018-08-19 23:42:57,266 INFO (SpringApplication.java:662)- No active profile set, falling back to default profiles: default
+2018-08-19 23:42:57,355 INFO (AbstractApplicationContext.java:590)- Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@662d5c59: startup date [Sun Aug 19 23:42:57 CST 2018]; root of context hierarchy
+2018-08-19 23:42:58,690 WARN (ClassPathMapperScanner.java:166)- No MyBatis mapper was found in '[demo.repository.master]' package. Please check your configuration.
+2018-08-19 23:42:58,691 WARN (ClassPathMapperScanner.java:166)- No MyBatis mapper was found in '[demo.repository.slave]' package. Please check your configuration.
+2018-08-19 23:42:59,049 INFO (RepositoryConfigurationDelegate.java:163)- Multiple Spring Data modules found, entering strict repository configuration mode!
+2018-08-19 23:42:59,082 INFO (RepositoryConfigurationDelegate.java:163)- Multiple Spring Data modules found, entering strict repository configuration mode!
+2018-08-19 23:42:59,648 INFO (PostProcessorRegistrationDelegate.java:326)- Bean 'org.springframework.amqp.rabbit.annotation.RabbitBootstrapConfiguration' of type [org.springframework.amqp.rabbit.annotation.RabbitBootstrapConfiguration$$EnhancerBySpringCGLIB$$9f265cb0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-08-19 23:42:59,686 INFO (PostProcessorRegistrationDelegate.java:326)- Bean 'org.springframework.kafka.annotation.KafkaBootstrapConfiguration' of type [org.springframework.kafka.annotation.KafkaBootstrapConfiguration$$EnhancerBySpringCGLIB$$ac6cb005] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-08-19 23:42:59,769 INFO (PostProcessorRegistrationDelegate.java:326)- Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$d8ba9e82] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-08-19 23:43:00,511 INFO (TomcatWebServer.java:91)- Tomcat initialized with port(s): 8080 (http)
+2018-08-19 23:43:00,527 INFO (DirectJDKLog.java:180)- Initializing ProtocolHandler ["http-nio-8080"]
+2018-08-19 23:43:00,538 INFO (DirectJDKLog.java:180)- Starting service [Tomcat]
+2018-08-19 23:43:00,539 INFO (DirectJDKLog.java:180)- Starting Servlet Engine: Apache Tomcat/8.5.32
+2018-08-19 23:43:00,545 INFO (DirectJDKLog.java:180)- The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/shitchan/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+2018-08-19 23:43:00,627 INFO (DirectJDKLog.java:180)- Initializing Spring embedded WebApplicationContext
+2018-08-19 23:43:00,627 INFO (ServletWebServerApplicationContext.java:285)- Root WebApplicationContext: initialization completed in 3272 ms
+2018-08-19 23:43:00,712 INFO (ServletRegistrationBean.java:187)- Servlet dispatcherServlet mapped to [/]
+2018-08-19 23:43:00,718 INFO (AbstractFilterRegistrationBean.java:245)- Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-08-19 23:43:00,719 INFO (AbstractFilterRegistrationBean.java:245)- Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-08-19 23:43:00,719 INFO (AbstractFilterRegistrationBean.java:245)- Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-08-19 23:43:00,720 INFO (AbstractFilterRegistrationBean.java:245)- Mapping filter: 'requestContextFilter' to: [/*]
+2018-08-19 23:43:01,315 INFO (SLF4JLogger.java:71)- Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2018-08-19 23:43:01,373 INFO (SLF4JLogger.java:71)- Opened connection [connectionId{localValue:1, serverValue:113}] to localhost:27017
+2018-08-19 23:43:01,378 INFO (SLF4JLogger.java:71)- Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 0, 0]}, minWireVersion=0, maxWireVersion=7, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=3052603}
+2018-08-19 23:43:01,968 INFO (AbstractUrlHandlerMapping.java:373)- Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-08-19 23:43:02,264 INFO (RequestMappingHandlerAdapter.java:574)- Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@662d5c59: startup date [Sun Aug 19 23:42:57 CST 2018]; root of context hierarchy
+2018-08-19 23:43:02,327 INFO (AbstractHandlerMethodMapping.java:547)- Mapped "{[/demo/find],methods=[POST]}" onto public com.shit.demo.bean.Result com.shit.demo.action.DemoController.find(com.shit.demo.bean.User,org.springframework.validation.BindingResult)
+2018-08-19 23:43:02,328 INFO (AbstractHandlerMethodMapping.java:547)- Mapped "{[/demo/hello]}" onto public com.shit.demo.bean.Result com.shit.demo.action.DemoController.say()
+2018-08-19 23:43:02,329 INFO (AbstractHandlerMethodMapping.java:547)- Mapped "{[/mongodb/test]}" onto public com.shit.demo.bean.Result com.shit.demo.action.MongoController.test()
+2018-08-19 23:43:02,329 INFO (AbstractHandlerMethodMapping.java:547)- Mapped "{[/postgresql/test]}" onto public com.shit.demo.bean.Result com.shit.demo.action.PostgresqlController.test()
+2018-08-19 23:43:02,330 INFO (AbstractHandlerMethodMapping.java:547)- Mapped "{[/rabbitmq/hello],methods=[POST]}" onto public com.shit.demo.bean.Result com.shit.demo.action.RabbitMqController.send()
+2018-08-19 23:43:02,331 INFO (AbstractHandlerMethodMapping.java:547)- Mapped "{[/redis/get],methods=[POST]}" onto public com.shit.demo.bean.Result com.shit.demo.action.RedisController.get()
+2018-08-19 23:43:02,332 INFO (AbstractHandlerMethodMapping.java:547)- Mapped "{[/redis/hash],methods=[POST]}" onto public com.shit.demo.bean.Result com.shit.demo.action.RedisController.hash()
+2018-08-19 23:43:02,332 INFO (AbstractHandlerMethodMapping.java:547)- Mapped "{[/redis/list],methods=[POST]}" onto public com.shit.demo.bean.Result com.shit.demo.action.RedisController.list()
+2018-08-19 23:43:02,333 INFO (AbstractHandlerMethodMapping.java:547)- Mapped "{[/redis/set],methods=[POST]}" onto public com.shit.demo.bean.Result com.shit.demo.action.RedisController.set()
+2018-08-19 23:43:02,333 INFO (AbstractHandlerMethodMapping.java:547)- Mapped "{[/redis/delete],methods=[POST]}" onto public com.shit.demo.bean.Result com.shit.demo.action.RedisController.delete()
+2018-08-19 23:43:02,336 INFO (AbstractHandlerMethodMapping.java:547)- Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-08-19 23:43:02,337 INFO (AbstractHandlerMethodMapping.java:547)- Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-08-19 23:43:02,377 INFO (AbstractUrlHandlerMapping.java:373)- Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-08-19 23:43:02,377 INFO (AbstractUrlHandlerMapping.java:373)- Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-08-19 23:43:02,717 INFO (SLF4JLogger.java:71)- Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2018-08-19 23:43:02,726 INFO (SLF4JLogger.java:71)- Opened connection [connectionId{localValue:2, serverValue:114}] to localhost:27017
+2018-08-19 23:43:02,729 INFO (SLF4JLogger.java:71)- Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 0, 0]}, minWireVersion=0, maxWireVersion=7, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=1160842}
+2018-08-19 23:43:03,371 INFO (OptionalLiveReloadServer.java:57)- LiveReload server is running on port 35729
+2018-08-19 23:43:03,417 INFO (MBeanExporter.java:433)- Registering beans for JMX exposure on startup
+2018-08-19 23:43:03,418 INFO (MBeanExporter.java:895)- Bean with name 'masterDataSource' has been autodetected for JMX exposure
+2018-08-19 23:43:03,419 INFO (MBeanExporter.java:895)- Bean with name 'slaveDataSource' has been autodetected for JMX exposure
+2018-08-19 23:43:03,431 INFO (MBeanExporter.java:895)- Bean with name 'rabbitConnectionFactory' has been autodetected for JMX exposure
+2018-08-19 23:43:03,436 INFO (MBeanExporter.java:668)- Located MBean 'masterDataSource': registering with JMX server as MBean [com.zaxxer.hikari:name=masterDataSource,type=HikariDataSource]
+2018-08-19 23:43:03,437 INFO (MBeanExporter.java:668)- Located MBean 'slaveDataSource': registering with JMX server as MBean [com.zaxxer.hikari:name=slaveDataSource,type=HikariDataSource]
+2018-08-19 23:43:03,439 INFO (MBeanExporter.java:675)- Located managed bean 'rabbitConnectionFactory': registering with JMX server as MBean [org.springframework.amqp.rabbit.connection:name=rabbitConnectionFactory,type=CachingConnectionFactory]
+2018-08-19 23:43:03,482 INFO (DefaultLifecycleProcessor.java:351)- Starting beans in phase 2147483547
+2018-08-19 23:43:03,482 INFO (DefaultLifecycleProcessor.java:351)- Starting beans in phase 2147483647
+2018-08-19 23:43:03,488 INFO (AbstractConnectionFactory.java:455)- Attempting to connect to: [localhost:5672]
+2018-08-19 23:43:03,518 INFO (AbstractConnectionFactory.java:471)- Created new connection: rabbitConnectionFactory#6de7067f:0/SimpleConnection@78c708ea [delegate=amqp://guest@127.0.0.1:5672/, localPort= 54943]
+2018-08-19 23:43:03,614 INFO (DirectJDKLog.java:180)- Starting ProtocolHandler ["http-nio-8080"]
+2018-08-19 23:43:03,630 INFO (DirectJDKLog.java:180)- Using a shared selector for servlet write/read
+2018-08-19 23:43:03,648 INFO (TomcatWebServer.java:206)- Tomcat started on port(s): 8080 (http) with context path ''
+2018-08-19 23:43:03,664 INFO (StartupInfoLogger.java:59)- Started DemoApplication in 6.902 seconds (JVM running for 8.424)
+2018-08-19 23:43:23,731 INFO (DirectJDKLog.java:180)- Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-08-19 23:43:23,731 INFO (FrameworkServlet.java:494)- FrameworkServlet 'dispatcherServlet': initialization started
+2018-08-19 23:43:23,759 INFO (FrameworkServlet.java:509)- FrameworkServlet 'dispatcherServlet': initialization completed in 27 ms

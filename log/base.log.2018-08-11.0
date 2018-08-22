@@ -1,0 +1,6 @@
+2018-08-11 07:45:25,151 INFO (AbstractApplicationContext.java:993)- Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@5ef752c1: startup date [Fri Aug 10 00:01:38 CST 2018]; root of context hierarchy
+2018-08-11 07:45:25,261 INFO (DefaultLifecycleProcessor.java:366)- Stopping beans in phase 2147483647
+2018-08-11 07:45:25,262 INFO (DefaultLifecycleProcessor.java:366)- Stopping beans in phase 2147483547
+2018-08-11 07:45:25,262 INFO (DefaultLifecycleProcessor.java:366)- Stopping beans in phase 0
+2018-08-11 07:45:25,302 INFO (MBeanExporter.java:451)- Unregistering JMX-exposed beans on shutdown
+2018-08-11 07:45:25,304 INFO (MBeanRegistrationSupport.java:185)- Unregistering JMX-exposed beans
