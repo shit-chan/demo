@@ -1,13 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="14707e53-d124-4c58-ad79-f223de9afdd9" name="Default" comment="">
+    <list default="true" id="14707e53-d124-4c58-ad79-f223de9afdd9" name="Default" comment="算法-二叉树">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo_algorithm/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo_algorithm/src/main/java/com/shit/demo_algorithm/dataStructure/ArrayQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo_algorithm/src/main/java/com/shit/demo_algorithm/dataStructure/ArrayQueue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo_algorithm/src/main/java/com/shit/demo_algorithm/dataStructure/Stack.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo_algorithm/src/main/java/com/shit/demo_algorithm/dataStructure/Stack.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo_algorithm/src/main/java/com/shit/demo_algorithm/dataStructure/common/DataUtil.java" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/demo-thread/target/" />
     <ignored path="$PROJECT_DIR$/demo_algorithm/target/" />
+    <ignored path=".idea/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -15,6 +20,7 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="ChangesViewManager" show_ignored="true" />
   <component name="CompilerWorkspaceConfiguration">
     <option name="MAKE_PROJECT_ON_SAVE" value="true" />
   </component>
@@ -37,43 +43,79 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="435">
-              <caret line="29" column="48" selection-start-line="29" selection-start-column="44" selection-end-line="29" selection-end-column="48" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MyTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/demo-thread/src/main/java/com/shit/demothread/thread/MyTest.java">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file leaf-file-name="MyTest.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/demo-thread/src/main/java/com/shit/demothread/MyTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="28" selection-start-line="28" selection-end-line="28" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/demo-thread/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" column="38" selection-start-line="14" selection-start-column="38" selection-end-line="14" selection-end-column="38" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DemoThreadApplication.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/demo-thread/src/main/java/com/shit/demothread/DemoThreadApplication.java">
+      <file leaf-file-name="TestBinaryTree.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/demo_algorithm/src/main/java/com/shit/demo_algorithm/dataStructure/TestBinaryTree.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="150">
-              <caret line="13" selection-start-line="13" selection-end-line="13" />
+              <caret line="10" column="69" lean-forward="true" selection-start-line="10" selection-start-column="69" selection-end-line="10" selection-end-column="69" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BinaryTree.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/demo_algorithm/src/main/java/com/shit/demo_algorithm/dataStructure/BinaryTree.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="97">
+              <caret line="279" column="35" lean-forward="true" selection-start-line="279" selection-start-column="35" selection-end-line="279" selection-end-column="35" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="NodeOfRedBlackTree.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/demo_algorithm/src/main/java/com/shit/demo_algorithm/dataStructure/common/NodeOfRedBlackTree.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="87">
+              <caret line="9" column="27" lean-forward="true" selection-start-line="9" selection-start-column="27" selection-end-line="9" selection-end-column="27" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="NodeOfTree.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/demo_algorithm/src/main/java/com/shit/demo_algorithm/dataStructure/common/NodeOfTree.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="15" selection-start-line="15" selection-end-line="15" />
+              <folding>
+                <element signature="e#255#256#0" expanded="true" />
+                <element signature="e#283#284#0" expanded="true" />
+                <element signature="e#361#362#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Color.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/demo_algorithm/src/main/java/com/shit/demo_algorithm/dataStructure/common/Color.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="115">
+              <caret line="13" column="5" lean-forward="true" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Tree.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/demo_algorithm/src/main/java/com/shit/demo_algorithm/dataStructure/Tree.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="258">
+              <caret line="21" column="17" selection-start-line="21" selection-start-column="8" selection-end-line="21" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TestStackAndQueue.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/demo_algorithm/src/main/java/com/shit/demo_algorithm/dataStructure/TestStackAndQueue.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-217">
+              <caret line="7" column="28" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="28" />
             </state>
           </provider>
         </entry>
@@ -83,7 +125,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Enum" />
         <option value="Interface" />
+        <option value="Arquillian JUnit Test Class" />
         <option value="Class" />
       </list>
     </option>
@@ -96,7 +140,18 @@
       <find>postgresql</find>
       <find>Invalid bound statement</find>
       <find>amqp</find>
+      <find>fastjson</find>
+      <find>delete</find>
+      <find>heigh</find>
+      <find>System.out.println(&quot;查找元素5：&quot; + binaryTree.search(5));         System.out.println(&quot;树的总元素：&quot; + binaryTree.getNumber());         System.out.println(&quot;树高&quot; + binaryTree.getHeight());         System.out.println(&quot;前序遍历：&quot; + binaryTree.traversalPre());         System.out.println(&quot;中序遍历：&quot; + binaryTree.traversalMid());         System.out.println(&quot;后序遍历：&quot; + binaryTree.traversalAfter());         System.out.println(&quot;层次遍历：&quot; + binaryTree.traversalLevel());</find>
+      <find>binaryTree</find>
+      <find>binaryTree.</find>
+      <find>System.out.println</find>
+      <find>int getHeight()</find>
     </findStrings>
+    <replaceStrings>
+      <replace>sb.append</replace>
+    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -132,6 +187,24 @@
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/demo-thread/src/main/java/com/shit/demothread/thread/MyTest.java" />
         <option value="$PROJECT_DIR$/demo-thread/src/main/java/com/shit/demothread/MyTest.java" />
+        <option value="$PROJECT_DIR$/demo-thread/pom.xml" />
+        <option value="$PROJECT_DIR$/demo_algorithm/src/main/java/com/shit/demo_algorithm/dataStructure/Color.java" />
+        <option value="$PROJECT_DIR$/demo_algorithm/src/main/java/com/shit/demo_algorithm/dataStructure/RedBlackTree.java" />
+        <option value="$PROJECT_DIR$/demo_algorithm/src/main/java/com/shit/demo_algorithm/dataStructure/DTO/RedBlackTree.java" />
+        <option value="$PROJECT_DIR$/demo_algorithm/src/main/java/com/shit/demo_algorithm/dataStructure/DTO/NodeOfRedBlackTree.java" />
+        <option value="$PROJECT_DIR$/demo_algorithm/src/test/java/com/shit/demo_algorithm/dataStructure/StackTest.java" />
+        <option value="$PROJECT_DIR$/demo_algorithm/pom.xml" />
+        <option value="$PROJECT_DIR$/demo_algorithm/src/main/java/com/shit/demo_algorithm/dataStructure/DTO/NodeOfTree.java" />
+        <option value="$PROJECT_DIR$/demo_algorithm/src/main/java/com/shit/demo_algorithm/dataStructure/common/dataUtil.java" />
+        <option value="$PROJECT_DIR$/demo_algorithm/src/main/java/com/shit/demo_algorithm/dataStructure/common/DataUtil.java" />
+        <option value="$PROJECT_DIR$/demo_algorithm/src/main/java/com/shit/demo_algorithm/dataStructure/Queue.java" />
+        <option value="$PROJECT_DIR$/demo_algorithm/src/main/java/com/shit/demo_algorithm/dataStructure/ArrayQueue.java" />
+        <option value="$PROJECT_DIR$/demo_algorithm/src/main/java/com/shit/demo_algorithm/dataStructure/Stack.java" />
+        <option value="$PROJECT_DIR$/demo_algorithm/src/main/java/com/shit/demo_algorithm/dataStructure/TestStackAndQueue.java" />
+        <option value="$PROJECT_DIR$/demo_algorithm/src/main/java/com/shit/demo_algorithm/dataStructure/common/NodeOfTree.java" />
+        <option value="$PROJECT_DIR$/demo_algorithm/src/main/java/com/shit/demo_algorithm/dataStructure/TestBinaryTree.java" />
+        <option value="$PROJECT_DIR$/demo_algorithm/src/main/java/com/shit/demo_algorithm/dataStructure/Tree.java" />
+        <option value="$PROJECT_DIR$/demo_algorithm/src/main/java/com/shit/demo_algorithm/dataStructure/BinaryTree.java" />
       </list>
     </option>
   </component>
@@ -167,14 +240,21 @@
     <option name="width" value="1440" />
     <option name="height" value="813" />
   </component>
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
-      <showMembers ProjectPane="true" />
-      <hideEmptyPackages ProjectPane="true" />
+      <flattenPackages ProjectPane="false" />
+      <showMembers ProjectPane="false" />
+      <hideEmptyPackages ProjectPane="false" />
+      <autoscrollToSource ProjectPane="true" />
+      <autoscrollFromSource ProjectPane="true" />
+      <sortByType ProjectPane="true" />
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -186,8 +266,8 @@
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -197,21 +277,33 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="Arquillian JUnit4" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.Arquillian JUnit4" value="" />
+    <property name="extract.method.default.visibility" value="private" />
     <property name="jdk.selected.JAVA_MODULE" value="JDK10" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="fileTemplates" />
   </component>
   <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.shit.demo_algorithm.dataStructure" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.shit.demo.rabbitmq" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/demo-thread/src/main/java/com/shit/demothread" />
       <recent name="$PROJECT_DIR$/src/main/java/com/shit/demo/action" />
       <recent name="$PROJECT_DIR$/src/main/resources" />
       <recent name="$PROJECT_DIR$/src/main/java/com/shit/demo/mongodb" />
-      <recent name="$PROJECT_DIR$/src/main/java/com/shit/demo/redis" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -226,7 +318,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.MyTest">
+  <component name="RunManager" selected="Application.TestBinaryTree">
     <configuration name="MyTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.shit.demothread.MyTest" />
       <module name="demo_thread" />
@@ -234,6 +326,39 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.shit.demothread.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="Stack" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.shit.demo_algorithm.dataStructure.Stack" />
+      <module name="demo_algorithm" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.shit.demo_algorithm.dataStructure.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="TestBinaryTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.shit.demo_algorithm.dataStructure.TestBinaryTree" />
+      <module name="demo_algorithm" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.shit.demo_algorithm.dataStructure.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="TestStackAndQueue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.shit.demo_algorithm.dataStructure.TestStackAndQueue" />
+      <module name="demo_algorithm" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.shit.demo_algorithm.dataStructure.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -294,11 +419,17 @@
     <list>
       <item itemvalue="Spring Boot.DemoApplication" />
       <item itemvalue="Spring Boot.DemoThreadApplication" />
-      <item itemvalue="Application.MyTest" />
       <item itemvalue="Spring Boot.DemoAlgorithmApplication" />
+      <item itemvalue="Application.MyTest" />
+      <item itemvalue="Application.Stack" />
+      <item itemvalue="Application.TestBinaryTree" />
+      <item itemvalue="Application.TestStackAndQueue" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TestBinaryTree" />
+        <item itemvalue="Application.TestStackAndQueue" />
+        <item itemvalue="Application.Stack" />
         <item itemvalue="Application.MyTest" />
       </list>
     </recent_temporary>
@@ -317,7 +448,8 @@
       <workItem from="1533740839549" duration="470000" />
       <workItem from="1533741351244" duration="11640000" />
       <workItem from="1534348841042" duration="16343000" />
-      <workItem from="1554217476507" duration="983000" />
+      <workItem from="1554217476507" duration="1402000" />
+      <workItem from="1555135104290" duration="49991000" />
     </task>
     <task id="LOCAL-00001" summary="thread">
       <created>1554218534130</created>
@@ -326,48 +458,63 @@
       <option name="project" value="LOCAL" />
       <updated>1554218534130</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="thread">
+      <created>1554218962870</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1554218962870</updated>
+    </task>
+    <task id="LOCAL-00003" summary="算法-二叉树">
+      <created>1555341378389</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1555341378389</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="31464000" />
+    <option name="totallyTimeSpent" value="81874000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="813" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5007153" side_tool="true" weight="0.39944133" />
-      <window_info anchor="right" id="Maven Projects" order="3" weight="0.3297568" />
+      <window_info anchor="right" id="Maven Projects" order="3" visible="true" weight="0.17525035" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.24964234" />
       <window_info anchor="right" id="Database" order="3" weight="0.3297568" />
-      <window_info id="Structure" order="1" sideWeight="0.5023256" side_tool="true" weight="0.25679544" />
+      <window_info id="Structure" order="1" sideWeight="0.211838" side_tool="true" visible="true" weight="0.26752505" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.24964234" />
       <window_info id="UI Designer" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49928468" weight="0.54189944" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49928468" weight="0.47905028" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" order="7" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.32960895" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="bottom" id="Java Enterprise" order="7" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32960895" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Version Control" order="7" visible="true" weight="0.551676" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.28072625" />
       <window_info anchor="bottom" id="Spring" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4976744" visible="true" weight="0.2639485" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32960895" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.788162" visible="true" weight="0.26752505" />
       <window_info anchor="bottom" id="Problems" order="7" />
       <window_info anchor="right" id="Bean Validation" order="3" weight="0.3297568" />
       <window_info id="Web" order="2" sideWeight="0.5023256" side_tool="true" weight="0.25679544" />
+      <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="right" id="Theme Preview" order="3" />
       <window_info id="Favorites" order="2" sideWeight="0.5023256" side_tool="true" weight="0.25679544" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.24964234" />
-      <window_info anchor="bottom" id="Find" order="1" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -378,144 +525,24 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="thread" />
-    <option name="LAST_COMMIT_MESSAGE" value="thread" />
+    <MESSAGE value="算法-二叉树" />
+    <option name="LAST_COMMIT_MESSAGE" value="算法-二叉树" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="9" />
+      <option name="time" value="52" />
     </breakpoint-manager>
+    <watches-manager>
+      <configuration name="Application">
+        <watch expression="((NodeOfTree)((NodeOfTree)((NodeOfTree)((BinaryTree)this).root).left).right).right" custom="com.shit.demo_algorithm.dataStructure.DTO.NodeOfTree,com.shit.demo_algorithm.dataStructure.BinaryTree" />
+      </configuration>
+    </watches-manager>
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/resources/logback.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="32" selection-start-line="11" selection-start-column="30" selection-end-line="11" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/mongodb/mongodb-driver/3.6.4/mongodb-driver-3.6.4.jar!/com/mongodb/client/FindIterable.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="12" column="17" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/mongodb/mongodb-driver/3.6.4/mongodb-driver-3.6.4.jar!/com/mongodb/MongoCollectionImpl.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="764" column="25" selection-start-line="764" selection-start-column="25" selection-end-line="764" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/mongodb/bson/3.6.4/bson-3.6.4.jar!/org/bson/AbstractBsonWriter.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="134">
-          <caret line="340" selection-start-line="340" selection-end-line="340" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/mongodb/mongodb-driver-core/3.6.4/mongodb-driver-core-3.6.4.jar!/com/mongodb/client/result/UpdateResult.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="9" column="22" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/mongodb/mongodb-driver/3.6.4/mongodb-driver-3.6.4.jar!/com/mongodb/client/MongoCollection.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="134">
-          <caret line="160" column="17" selection-start-line="160" selection-start-column="17" selection-end-line="160" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/mongodb/mongodb-driver-core/3.6.4/mongodb-driver-core-3.6.4.jar!/com/mongodb/client/model/Filters.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="179">
-          <caret line="37" column="31" selection-start-line="37" selection-start-column="31" selection-end-line="37" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/shit/demo/postgresql/service/PostgresqlService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/shit/demo/postgresql/service/impl/PostgresqlServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="12" column="49" selection-start-line="12" selection-start-column="49" selection-end-line="12" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/shit/demo/config/MasterConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="32" column="41" selection-start-line="32" selection-start-column="18" selection-end-line="32" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/shit/demo/config/SlaveConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="29" column="28" selection-start-line="29" selection-start-column="11" selection-end-line="29" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/shit/demo/action/PostgresqlController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="47" selection-start-line="13" selection-start-column="30" selection-end-line="13" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/shit/demo/bean/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="14" selection-start-line="14" selection-end-line="15" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/tomcat/embed/tomcat-embed-core/8.5.32/tomcat-embed-core-8.5.32.jar!/org/apache/catalina/core/StandardWrapperValve.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="169" selection-start-line="169" selection-end-line="169" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.0.8.RELEASE/spring-web-5.0.8.RELEASE.jar!/org/springframework/web/filter/RequestContextFilter.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="41" selection-start-line="41" selection-end-line="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/5.0.8.RELEASE/spring-webmvc-5.0.8.RELEASE.jar!/org/springframework/web/servlet/DispatcherServlet.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="103">
-          <caret line="425" selection-start-line="425" selection-end-line="425" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/tomcat/embed/tomcat-embed-core/8.5.32/tomcat-embed-core-8.5.32.jar!/org/apache/catalina/core/ApplicationFilterChain.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="117">
-          <caret line="95" selection-start-line="95" selection-end-line="95" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/5.0.8.RELEASE/spring-webmvc-5.0.8.RELEASE.jar!/org/springframework/web/servlet/FrameworkServlet.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="489" selection-start-line="489" selection-end-line="489" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.0.8.RELEASE/spring-web-5.0.8.RELEASE.jar!/org/springframework/web/filter/OncePerRequestFilter.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="117">
@@ -715,36 +742,241 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/demo-thread/src/main/java/com/shit/demothread/thread/MyTest.java" />
+    <entry file="file://$PROJECT_DIR$/demo-thread/src/main/java/com/shit/demothread/DemoThreadApplication.java" />
+    <entry file="file://$PROJECT_DIR$/demo-thread/src/main/java/com/shit/demothread/MyTest.java" />
+    <entry file="file://$PROJECT_DIR$/demo-thread/pom.xml" />
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="29" column="48" selection-start-line="29" selection-start-column="44" selection-end-line="29" selection-end-column="48" />
+        <state relative-caret-position="147">
+          <caret line="10" column="21" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/demo-thread/src/main/java/com/shit/demothread/thread/MyTest.java">
+    <entry file="file://$PROJECT_DIR$/demo_algorithm/src/main/java/com/shit/demo_algorithm/DemoAlgorithmApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="10" column="5" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
+          <folding>
+            <element signature="e#262#263#0" expanded="true" />
+            <element signature="e#337#338#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo_algorithm/src/test/java/com/shit/demo_algorithm/dataStructure/StackTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="12" column="23" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo_algorithm/src/main/java/com/shit/demo_algorithm/dataStructure/Stack.class">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/demo-thread/pom.xml">
+    <entry file="file://$PROJECT_DIR$/demo_algorithm/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="38" selection-start-line="14" selection-start-column="38" selection-end-line="14" selection-end-column="38" />
+        <state relative-caret-position="126">
+          <caret line="39" column="11" selection-start-line="33" selection-start-column="24" selection-end-line="33" selection-end-column="32" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/demo-thread/src/main/java/com/shit/demothread/DemoThreadApplication.java">
+    <entry file="file://$PROJECT_DIR$/demo_algorithm/src/main/java/com/shit/demo_algorithm/dataStructure/Stack.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="28" column="17" lean-forward="true" selection-start-line="28" selection-start-column="17" selection-end-line="28" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#974#975#0" expanded="true" />
+            <element signature="e#1003#1004#0" expanded="true" />
+            <element signature="e#1034#1035#0" expanded="true" />
+            <element signature="e#1112#1113#0" expanded="true" />
+            <element signature="e#1136#1137#0" expanded="true" />
+            <element signature="e#1164#1165#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo_algorithm/src/main/java/com/shit/demo_algorithm/dataStructure/ArrayQueue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="128">
+          <caret line="28" column="27" lean-forward="true" selection-start-line="28" selection-start-column="27" selection-end-line="28" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1133#1134#0" expanded="true" />
+            <element signature="e#1227#1228#0" expanded="true" />
+            <element signature="e#1208#1209#0" expanded="true" />
+            <element signature="e#1239#1240#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo_algorithm/src/main/java/com/shit/demo_algorithm/dataStructure/Queue.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
-          <caret line="13" selection-start-line="13" selection-end-line="13" />
+          <caret line="12" column="19" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/demo-thread/src/main/java/com/shit/demothread/MyTest.java">
+    <entry file="file://$PROJECT_DIR$/demo_algorithm/src/main/java/com/shit/demo_algorithm/dataStructure/TestStackAndQueue.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="28" selection-start-line="28" selection-end-line="28" />
+        <state relative-caret-position="-217">
+          <caret line="7" column="28" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="28" />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/demo_algorithm/src/main/java/com/shit/demo_algorithm/dataStructure/TestBinaryTree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="69" lean-forward="true" selection-start-line="10" selection-start-column="69" selection-end-line="10" selection-end-column="69" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo_algorithm/src/main/java/com/shit/demo_algorithm/dataStructure/Tree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="258">
+          <caret line="21" column="17" selection-start-line="21" selection-start-column="8" selection-end-line="21" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/doc/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo_algorithm/src/main/java/com/shit/demo_algorithm/dataStructure/common/DataUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="5" lean-forward="true" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo_algorithm/src/main/java/com/shit/demo_algorithm/dataStructure/BinaryTree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="97">
+          <caret line="279" column="35" lean-forward="true" selection-start-line="279" selection-start-column="35" selection-end-line="279" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo_algorithm/src/main/java/com/shit/demo_algorithm/dataStructure/common/NodeOfRedBlackTree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="87">
+          <caret line="9" column="27" lean-forward="true" selection-start-line="9" selection-start-column="27" selection-end-line="9" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo_algorithm/src/main/java/com/shit/demo_algorithm/dataStructure/common/NodeOfTree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+          <folding>
+            <element signature="e#255#256#0" expanded="true" />
+            <element signature="e#283#284#0" expanded="true" />
+            <element signature="e#361#362#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo_algorithm/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo_algorithm/src/main/java/com/shit/demo_algorithm/dataStructure/common/Color.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="13" column="5" lean-forward="true" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <last-edited>demo:war</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.5" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Spring</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>JDK10</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>demo_algorithm</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: ch.qos.logback:logback-classic:1.2.3</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
   </component>
 </project>

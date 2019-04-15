@@ -1,7 +1,6 @@
 package com.shit.demo_algorithm.dataStructure;
 
 import com.alibaba.fastjson.JSONObject;
-import com.shit.demo_algorithm.dataStructure.common.DataUtil;
 
 public class Stack {
     private int top;
