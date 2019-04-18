@@ -5,6 +5,8 @@ public class NodeOfTree {
     private NodeOfTree left;
     private NodeOfTree right;
     private int key;
+    //红黑树：红色或者黑色
+    private Color color;
 
     public NodeOfTree(){
 
@@ -49,5 +51,13 @@ public class NodeOfTree {
 
     public void setKey(int key) {
         this.key = key;
+    }
+
+    public Color getColor() {
+        return color;
+    }
+
+    public void setColor(Color color) {
+        this.color = color;
     }
 }

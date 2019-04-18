@@ -7,17 +7,19 @@ public abstract class Tree {
     protected int height=0;
     protected int number=0;
     //前序遍历
-    String traversalPre(){return String.valueOf(root.getKey());}
+    abstract String traversalPre();
     //中序遍历
-    String traversalMid(){return String.valueOf(root.getKey());}
+    abstract String traversalMid();
     //后序遍历
-    String traversalAfter(){return String.valueOf(root.getKey());}
+    abstract String traversalAfter();
     //层级遍历
-    String traversalLevel(){return String.valueOf(root.getKey());}
-    NodeOfTree search(int key){return root;}
-    NodeOfTree min(){return root;}
-    NodeOfTree max(){return root;}
-    void insert(NodeOfTree node){}
-    void delete(NodeOfTree node){}
-    int getHeight(){return 0;};
+    abstract String traversalLevel();
+    abstract NodeOfTree search(int key);
+    abstract NodeOfTree min();
+    abstract NodeOfTree max();
+    abstract void insert(NodeOfTree node);
+    abstract void delete(NodeOfTree node);
+    abstract void delete(int key);
+    abstract int getHeight();
+    abstract Tree getTreeByPreAfter(String after);
 }

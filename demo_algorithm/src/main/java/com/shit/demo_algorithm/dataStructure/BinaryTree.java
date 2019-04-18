@@ -84,7 +84,7 @@ public class BinaryTree extends Tree {
         }
     }
 
-
+    @Override
     public void delete(int key){
         NodeOfTree nodeKey = search(key);
         if (nodeKey == null) {
@@ -262,8 +262,9 @@ public class BinaryTree extends Tree {
 
     /*根据后序遍历构造树
      逆序输出后序遍历，然后调用insert方法*/
-    public BinaryTree getTreeByPreAfter(String after) {
-        BinaryTree binaryTree = new BinaryTree();
+    @Override
+    public Tree getTreeByPreAfter(String after) {
+        Tree binaryTree = new BinaryTree();
         char[] a = after.toCharArray();
         int root;
         for(int i=a.length-1;i>=0;i--){
