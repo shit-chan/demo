@@ -8,13 +8,14 @@ public class RedBlackTree extends BinaryTree {
     //黑高：指的是从叶子节点开始数（叶子节点的黑高是0），沿着路径，如果节点是黑色，那么黑高加1
     private int blackHeigh;
 
-    public RedBlackTree(int[] a){
-        for(int i=0;i<a.length;i++){
-            NodeOfTree node=new NodeOfTree(a[i]);
+    public RedBlackTree(int[] a) {
+        for (int i = 0; i < a.length; i++) {
+            NodeOfTree node = new NodeOfTree(a[i]);
             node.setColor(Color.Red);
             insert(node);
         }
     }
+
     @Override
     public void insert(NodeOfTree node) {
         super.insert(node);
@@ -22,15 +23,15 @@ public class RedBlackTree extends BinaryTree {
         fixup(node);
     }
 
-    private void fixup(NodeOfTree node){
+    private void fixup(NodeOfTree node) {
         NodeOfTree x = node;
         NodeOfTree y;
         root.setColor(Color.Black);
-        if(node.getParent()==null||node.getParent().getColor().equals(Color.Black)){
+        if (node.getParent() == null || node.getParent().getColor().equals(Color.Black)) {
             //如果node是根节点或者它的父节点是黑色，直接返回
             return;
         }
-        while(x.getParent()!=null&&x.getParent().getColor().equals(Color.Red)) {
+        while (x.getParent() != null && x.getParent().getColor().equals(Color.Red)) {
             if (x.getParent() == x.getParent().getParent().getLeft()) {
                 //插入节点的父节点是个左孩子
                 //先拿到叔节点，判断叔叔节点的颜色
@@ -41,10 +42,12 @@ public class RedBlackTree extends BinaryTree {
                     y.setColor(Color.Black);
                     x.getParent().getParent().setColor(Color.Red);
                     x = x.getParent().getParent();
-                } else if (x.getParent().getRight()==x) {
-                    x=x.getParent();
+                } else if (x.getParent().getRight() == x) {
+                    //第二种情况，将父节点进行左旋
+                    x = x.getParent();
                     leftRotarion(x);
-                }else{
+                } else {
+                    //第三种情况，设置父节点为黑色，设置祖父节点为红色，对祖父节点进行右旋
                     x.getParent().setColor(Color.Black);
                     x.getParent().getParent().setColor(Color.Red);
                     rightRotarion(x.getParent().getParent());
@@ -60,10 +63,12 @@ public class RedBlackTree extends BinaryTree {
                     y.setColor(Color.Black);
                     x.getParent().getParent().setColor(Color.Red);
                     x = x.getParent().getParent();
-                } else if (x.getParent().getRight()==x) {
-                    x=x.getParent();
+                } else if (x.getParent().getRight() == x) {
+                    //第二种情况，将父节点进行左旋
+                    x = x.getParent();
                     leftRotarion(x);
-                }else{
+                } else {
+                    //第三种情况，设置父节点为黑色，设置祖父节点为红色，对祖父节点进行右旋
                     x.getParent().setColor(Color.Black);
                     x.getParent().getParent().setColor(Color.Red);
                     rightRotarion(x.getParent().getParent());
@@ -73,44 +78,43 @@ public class RedBlackTree extends BinaryTree {
     }
 
     //对x进行左旋
-    private void leftRotarion(NodeOfTree x){
-        NodeOfTree y=x.getRight();
+    private void leftRotarion(NodeOfTree x) {
+        NodeOfTree y = x.getRight();
         x.setRight(y.getLeft());
-        if(y.getLeft()!=null) {
+        if (y.getLeft() != null) {
             y.getLeft().setParent(x);
         }
         y.setParent((x.getParent()));
-        if(x.getParent()!=null) {
+        if (x.getParent() != null) {
             if (x.getParent().getLeft().equals(x)) {
                 x.getParent().setLeft(y);
             } else {
                 x.getParent().setRight(y);
             }
-        }else{
-            root=y;
+        } else {
+            root = y;
         }
         y.setLeft(x);
         x.setParent(y);
     }
-        
-        
+
 
     //对node进行右旋
-    private void rightRotarion(NodeOfTree y){
-        NodeOfTree x=y.getLeft();
+    private void rightRotarion(NodeOfTree y) {
+        NodeOfTree x = y.getLeft();
         y.setLeft(x.getRight());
-        if(x.getRight()!=null) {
+        if (x.getRight() != null) {
             x.getRight().setParent(y);
         }
         x.setParent((y.getParent()));
-        if(y.getParent()!=null) {
+        if (y.getParent() != null) {
             if (y.getParent().getLeft().equals(y)) {
                 y.getParent().setLeft(x);
             } else {
                 y.getParent().setRight(x);
             }
-        }else{
-            root=x;
+        } else {
+            root = x;
         }
         x.setRight(y);
         y.setParent(x);
@@ -120,6 +124,7 @@ public class RedBlackTree extends BinaryTree {
     public void delete(NodeOfTree node) {
         super.delete(node);
     }
+
     public int getBlackHeigh() {
         return blackHeigh;
     }
