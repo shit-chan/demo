@@ -2,8 +2,8 @@ package com.shit.demo.service;
 
 import com.shit.demo.bean.User;
 public interface UserService {
-    public void insert(User user);
-    public void update(User user);
-    public User find(int id);
-    public void delete(int id);
+    void insert(User user);
+    void update(User user);
+    User select(int id);
+    void delete(int id);
 }

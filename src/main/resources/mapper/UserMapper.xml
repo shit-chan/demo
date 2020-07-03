@@ -6,7 +6,7 @@
 
     <!-- insert user -->
     <insert id = "insert" parameterType="com.shit.demo.bean.User">
-        INSERT INTO USER(NAME,AGE) VALUES(#{name},#{age});
+        INSERT INTO USER(NAME,AGE) VALUES(#{name},#{age})
     </insert>
 
     <!-- update user -->
@@ -15,8 +15,8 @@
     </update>
 
     <!-- find user -->
-    <select id="select" parameterType="int" resultMap="com.shit.demo.bean.User">
-        SELECT ID,NAME,AGE FROM SHIT_USER WHERE ID=#{0}
+    <select id="select" resultType="com.shit.demo.bean.User">
+        SELECT id,name,age FROM USER
     </select>
 
 

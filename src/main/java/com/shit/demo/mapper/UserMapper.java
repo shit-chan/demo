@@ -1,15 +1,18 @@
 package com.shit.demo.mapper;
 
 import com.shit.demo.bean.User;
+import org.apache.ibatis.annotations.Flush;
 import org.apache.ibatis.annotations.Mapper;
+
+import java.util.List;
 
 @Mapper
 public interface UserMapper {
-    public void insert(User user);
+    void insert(User user);
 
-    public void update(User user);
+    void update(User user);
 
-    public void delete(int id);
+    void delete(int id);
 
-    public User select(int id);
+    List<User> select();
 }

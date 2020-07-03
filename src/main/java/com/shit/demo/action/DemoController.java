@@ -17,15 +17,14 @@ import javax.annotation.Resource;
 import javax.validation.Valid;
 
 @RestController
-@ComponentScan("com.shit.demo.service")
-@MapperScan("com.shit.demo.mapper")
+@RequestMapping("/demo")
 public class DemoController {
     @Resource
     private UserService userService;
 
     protected Logger log = LoggerFactory.getLogger(this.getClass());
 
-    @RequestMapping("/demo/hello")
+    @RequestMapping("/hello")
     public Result say() {
         log.info("say hello world!");
         Result result = new Result("Y", "hello world!");
@@ -33,7 +32,7 @@ public class DemoController {
     }
 
 
-    @PostMapping("/demo/find")
+    @PostMapping("/find")
     public Result find(@RequestBody @Valid User u, BindingResult bindingResult) {
         Result result = new Result("Y", "成功找到数据！");
         if (bindingResult.hasErrors()) {
@@ -41,7 +40,7 @@ public class DemoController {
             result.setResultMsg(bindingResult.getFieldError().getDefaultMessage());
             return result;
         }
-        User user = userService.find(u.getId());
+        User user = userService.select(u.getId());
         if (user != null) {
             result.setResultDetail(user);
             return result;
@@ -52,4 +51,11 @@ public class DemoController {
         }
     }
 
+    @PostMapping("/insert")
+    public Result insert(){
+        Result result = new Result("Y", "成功找到数据！");
+        User user = new User(2,"luo",18);
+        userService.insert(user);
+        return new Result("Y", "插入成功",user);
+    }
 }

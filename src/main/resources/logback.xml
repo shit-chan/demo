@@ -27,4 +27,8 @@
         <appender-ref ref="STDOUT" />
         <appender-ref ref="baselog" />
     </root>
+    <!--打印SQL-->
+    <logger name="com.shit.demo.mapper" level="DEBUG" additivity="false">
+        <appender-ref ref="STDOUT"/>
+    </logger>
 </configuration>

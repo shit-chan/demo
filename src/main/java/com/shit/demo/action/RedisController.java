@@ -8,6 +8,8 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import javax.annotation.Resource;
+import java.util.ArrayList;
+import java.util.List;
 
 @RestController
 public class RedisController {
@@ -97,6 +99,17 @@ public class RedisController {
             result.setResultMsg(e.getMessage());
             log.error("获取redis数据失败：",e);
         }
+        return result;
+    }
+
+    @PostMapping("/redis/mdel")
+    public Result mdel(){
+        Result result = new Result("Y","使用pipaline批量删除key成功");
+        List<String> delList = new ArrayList<String>();
+        for(int i=0;i<999;i++){
+            delList.add(String.valueOf(i));
+        }
+        redisService.mdel(delList);
         return result;
     }
 

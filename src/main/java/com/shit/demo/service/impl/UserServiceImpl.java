@@ -7,8 +7,8 @@ import org.springframework.context.annotation.ComponentScan;
 import org.springframework.stereotype.Service;
 
 import javax.annotation.Resource;
+import java.util.List;
 
-@ComponentScan("com.shit.demo.mapper")
 @Service("userService")
 public class UserServiceImpl implements UserService {
     @Resource
@@ -24,8 +24,9 @@ public class UserServiceImpl implements UserService {
     }
 
     @Override
-    public User find(int id) {
-        return userMapper.select(id);
+    public User select(int id) {
+        List<User> list = userMapper.select();
+        return list.get(0);
     }
 
     @Override

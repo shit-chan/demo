@@ -1,5 +1,7 @@
 package com.shit.demo.redis.service;
 
+import org.springframework.dao.DataAccessException;
+import org.springframework.data.redis.connection.RedisConnection;
 import org.springframework.data.redis.core.*;
 import org.springframework.data.redis.serializer.RedisSerializer;
 import org.springframework.data.redis.serializer.StringRedisSerializer;
@@ -221,5 +223,20 @@ public class RedisService {
         ZSetOperations<String, Object> zset = redisTemplate.opsForZSet();
         return zset.rangeByScore(key, scoure, scoure1);
     }
+
+    public void mdel(List<String> keys){
+        redisTemplate.executePipelined(new RedisCallback<Object>() {
+            @Override
+            public Object doInRedis(RedisConnection redisConnection) throws DataAccessException {
+                redisConnection.openPipeline();
+                for (String key:keys) {
+                    redisConnection.del(key.getBytes());
+                }
+                redisConnection.closePipeline();
+                return null;
+            }
+        });
+    }
+
 
 }

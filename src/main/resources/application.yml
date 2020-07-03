@@ -1,0 +1,36 @@
+server:
+  port: 8080
+
+#datasource.master.driver-class-name=com.mysql.jdbc.Driver
+#datasource.master.url =jdbc:mysql://localhost:3306/shit
+#datasource.master.username =root
+#datasource.master.password =ring550808
+#
+#datasource.slave.url=jdbc:postgresql://localhost:5432/postgres
+#datasource.slave.username=postgres
+#datasource.slave.password=ring
+#datasource.slave.driverClassName=org.postgresql.Driver
+#spring.jpa.properties.hibernate.dialect=org.hibernate.dialect.PostgreSQLDialect
+#spring.jpa.properties.hibernate.hbm2ddl.auto=update
+
+spring:
+  application:
+    name: shit-demo
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/shit
+    username: root
+    password: ring550808
+    type: com.alibaba.druid.pool.DruidDataSource
+  redis:
+    host: localhost
+    port: 6379
+  rabbitmq:
+    host: localhost
+    port: 5672
+    username: guest
+    password: guest
+
+mybatis:
+  typeAliasesPackage: com.shit.demo.bean
+  mapperLocations: classpath:mapper/*.xml

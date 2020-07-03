@@ -1,15 +1,15 @@
-2018-08-22 22:51:39,937 INFO (AbstractApplicationContext.java:993)- Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@150b1b6b: startup date [Mon Aug 20 22:47:58 CST 2018]; root of context hierarchy
-2018-08-22 22:51:39,973 INFO (DefaultLifecycleProcessor.java:366)- Stopping beans in phase 2147483647
-2018-08-22 22:51:39,990 INFO (SimpleMessageListenerContainer.java:534)- Waiting for workers to finish.
-2018-08-22 22:51:40,725 INFO (SimpleMessageListenerContainer.java:537)- Successfully waited for workers to finish.
-2018-08-22 22:51:40,727 INFO (SimpleMessageListenerContainer.java:534)- Waiting for workers to finish.
-2018-08-22 22:51:41,636 INFO (SimpleMessageListenerContainer.java:537)- Successfully waited for workers to finish.
-2018-08-22 22:51:41,638 INFO (SimpleMessageListenerContainer.java:534)- Waiting for workers to finish.
-2018-08-22 22:51:42,640 INFO (SimpleMessageListenerContainer.java:537)- Successfully waited for workers to finish.
-2018-08-22 22:51:42,641 INFO (DefaultLifecycleProcessor.java:366)- Stopping beans in phase 2147483547
-2018-08-22 22:51:42,642 INFO (DefaultLifecycleProcessor.java:366)- Stopping beans in phase 0
-2018-08-22 22:51:42,668 INFO (AbstractMessageListenerContainer.java:1089)- Shutdown ignored - container is not active already
-2018-08-22 22:51:42,669 INFO (AbstractMessageListenerContainer.java:1089)- Shutdown ignored - container is not active already
-2018-08-22 22:51:42,670 INFO (AbstractMessageListenerContainer.java:1089)- Shutdown ignored - container is not active already
-2018-08-22 22:51:42,671 INFO (MBeanExporter.java:451)- Unregistering JMX-exposed beans on shutdown
-2018-08-22 22:51:42,672 INFO (MBeanRegistrationSupport.java:185)- Unregistering JMX-exposed beans
+2019-07-03 00:20:41,840 INFO (AbstractApplicationContext.java:993)- Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@4dff15ec: startup date [Mon Jul 01 23:36:20 CST 2019]; root of context hierarchy
+2019-07-03 00:20:41,868 INFO (DefaultLifecycleProcessor.java:366)- Stopping beans in phase 2147483647
+2019-07-03 00:20:41,886 INFO (SimpleMessageListenerContainer.java:534)- Waiting for workers to finish.
+2019-07-03 00:20:42,213 INFO (SimpleMessageListenerContainer.java:537)- Successfully waited for workers to finish.
+2019-07-03 00:20:42,218 INFO (SimpleMessageListenerContainer.java:534)- Waiting for workers to finish.
+2019-07-03 00:20:42,663 INFO (SimpleMessageListenerContainer.java:537)- Successfully waited for workers to finish.
+2019-07-03 00:20:42,664 INFO (SimpleMessageListenerContainer.java:534)- Waiting for workers to finish.
+2019-07-03 00:20:43,667 INFO (SimpleMessageListenerContainer.java:537)- Successfully waited for workers to finish.
+2019-07-03 00:20:43,668 INFO (DefaultLifecycleProcessor.java:366)- Stopping beans in phase 2147483547
+2019-07-03 00:20:43,669 INFO (DefaultLifecycleProcessor.java:366)- Stopping beans in phase 0
+2019-07-03 00:20:43,694 INFO (AbstractMessageListenerContainer.java:1089)- Shutdown ignored - container is not active already
+2019-07-03 00:20:43,695 INFO (AbstractMessageListenerContainer.java:1089)- Shutdown ignored - container is not active already
+2019-07-03 00:20:43,695 INFO (AbstractMessageListenerContainer.java:1089)- Shutdown ignored - container is not active already
+2019-07-03 00:20:43,695 INFO (MBeanExporter.java:451)- Unregistering JMX-exposed beans on shutdown
+2019-07-03 00:20:43,696 INFO (MBeanRegistrationSupport.java:185)- Unregistering JMX-exposed beans

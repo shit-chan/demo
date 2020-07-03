@@ -1,906 +1,277 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="14707e53-d124-4c58-ad79-f223de9afdd9" name="Default" comment="算法-二叉树">
+    <list default="true" id="f80dc3b6-322e-42b5-9237-40e5bdf3ee84" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/japi.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo_algorithm/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo_algorithm/src/main/java/com/shit/demo_algorithm/dataStructure/ArrayQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo_algorithm/src/main/java/com/shit/demo_algorithm/dataStructure/ArrayQueue.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo_algorithm/src/main/java/com/shit/demo_algorithm/dataStructure/Stack.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo_algorithm/src/main/java/com/shit/demo_algorithm/dataStructure/Stack.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo_algorithm/src/main/java/com/shit/demo_algorithm/dataStructure/common/DataUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo_algorithm/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/demo_algorithm/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo_algorithm/src/main/java/com/shit/demo_algorithm/dataStructure/TestRedBlackTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo_algorithm/src/main/java/com/shit/demo_algorithm/dataStructure/TestRedBlackTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo_algorithm/target/classes/com/shit/demo_algorithm/dataStructure/BinaryTree.class" beforeDir="false" afterPath="$PROJECT_DIR$/demo_algorithm/target/classes/com/shit/demo_algorithm/dataStructure/BinaryTree.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo_algorithm/target/classes/com/shit/demo_algorithm/dataStructure/RedBlackTree.class" beforeDir="false" afterPath="$PROJECT_DIR$/demo_algorithm/target/classes/com/shit/demo_algorithm/dataStructure/RedBlackTree.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo_algorithm/target/classes/com/shit/demo_algorithm/dataStructure/TestRedBlackTree.class" beforeDir="false" afterPath="$PROJECT_DIR$/demo_algorithm/target/classes/com/shit/demo_algorithm/dataStructure/TestRedBlackTree.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo_algorithm/target/classes/com/shit/demo_algorithm/dataStructure/TestStackAndQueue.class" beforeDir="false" afterPath="$PROJECT_DIR$/demo_algorithm/target/classes/com/shit/demo_algorithm/dataStructure/TestStackAndQueue.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/base.log" beforeDir="false" afterPath="$PROJECT_DIR$/log/base.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/shit/demo/DemoApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/shit/demo/DemoApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/shit/demo/action/DemoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/shit/demo/action/DemoController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/shit/demo/action/RedisController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/shit/demo/action/RedisController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/shit/demo/mapper/UserMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/shit/demo/mapper/UserMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/shit/demo/redis/service/RedisService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/shit/demo/redis/service/RedisService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/shit/demo/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/shit/demo/service/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/shit/demo/service/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/shit/demo/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/logback.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/logback.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mapper/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mapper/UserMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shit/demo/DemoApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shit/demo/DemoApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shit/demo/action/DemoController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shit/demo/action/DemoController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shit/demo/action/MongoController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shit/demo/action/MongoController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shit/demo/action/RedisController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shit/demo/action/RedisController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shit/demo/mapper/UserMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shit/demo/mapper/UserMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shit/demo/postgresql/service/impl/PostgresqlServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shit/demo/postgresql/service/impl/PostgresqlServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shit/demo/redis/service/RedisService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shit/demo/redis/service/RedisService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shit/demo/service/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shit/demo/service/UserService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/shit/demo/service/impl/UserServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/shit/demo/service/impl/UserServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/logback.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/logback.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mapper/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mapper/UserMapper.xml" afterDir="false" />
     </list>
-    <ignored path="$PROJECT_DIR$/out/" />
-    <ignored path="$PROJECT_DIR$/target/" />
-    <ignored path="$PROJECT_DIR$/demo-thread/target/" />
-    <ignored path="$PROJECT_DIR$/demo_algorithm/target/" />
-    <ignored path=".idea/" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
-    <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ChangesViewManager" show_ignored="true" />
-  <component name="CompilerWorkspaceConfiguration">
-    <option name="MAKE_PROJECT_ON_SAVE" value="true" />
-  </component>
-  <component name="DatabaseView">
-    <option name="SHOW_INTERMEDIATE" value="true" />
-    <option name="GROUP_DATA_SOURCES" value="true" />
-    <option name="GROUP_SCHEMA" value="true" />
-    <option name="GROUP_CONTENTS" value="false" />
-    <option name="SORT_POSITIONED" value="false" />
-    <option name="SHOW_EMPTY_GROUPS" value="false" />
-    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
-    <option name="HIDDEN_KINDS">
-      <set />
-    </option>
-    <expand />
-    <select />
-  </component>
-  <component name="FavoritesManager">
-    <favorites_list name="demo" />
-  </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="TestBinaryTree.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/demo_algorithm/src/main/java/com/shit/demo_algorithm/dataStructure/TestBinaryTree.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="69" lean-forward="true" selection-start-line="10" selection-start-column="69" selection-end-line="10" selection-end-column="69" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BinaryTree.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/demo_algorithm/src/main/java/com/shit/demo_algorithm/dataStructure/BinaryTree.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="97">
-              <caret line="279" column="35" lean-forward="true" selection-start-line="279" selection-start-column="35" selection-end-line="279" selection-end-column="35" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="NodeOfRedBlackTree.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/demo_algorithm/src/main/java/com/shit/demo_algorithm/dataStructure/common/NodeOfRedBlackTree.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="87">
-              <caret line="9" column="27" lean-forward="true" selection-start-line="9" selection-start-column="27" selection-end-line="9" selection-end-column="27" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="NodeOfTree.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/demo_algorithm/src/main/java/com/shit/demo_algorithm/dataStructure/common/NodeOfTree.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" selection-start-line="15" selection-end-line="15" />
-              <folding>
-                <element signature="e#255#256#0" expanded="true" />
-                <element signature="e#283#284#0" expanded="true" />
-                <element signature="e#361#362#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Color.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/demo_algorithm/src/main/java/com/shit/demo_algorithm/dataStructure/common/Color.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="115">
-              <caret line="13" column="5" lean-forward="true" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Tree.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/demo_algorithm/src/main/java/com/shit/demo_algorithm/dataStructure/Tree.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="258">
-              <caret line="21" column="17" selection-start-line="21" selection-start-column="8" selection-end-line="21" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TestStackAndQueue.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/demo_algorithm/src/main/java/com/shit/demo_algorithm/dataStructure/TestStackAndQueue.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-217">
-              <caret line="7" column="28" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="28" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
-  </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Enum" />
-        <option value="Interface" />
-        <option value="Arquillian JUnit Test Class" />
-        <option value="Class" />
-      </list>
-    </option>
-  </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>mongdb</find>
-      <find>mong</find>
-      <find>/demo/find</find>
-      <find>postgresql</find>
-      <find>Invalid bound statement</find>
-      <find>amqp</find>
-      <find>fastjson</find>
-      <find>delete</find>
-      <find>heigh</find>
-      <find>System.out.println(&quot;查找元素5：&quot; + binaryTree.search(5));         System.out.println(&quot;树的总元素：&quot; + binaryTree.getNumber());         System.out.println(&quot;树高&quot; + binaryTree.getHeight());         System.out.println(&quot;前序遍历：&quot; + binaryTree.traversalPre());         System.out.println(&quot;中序遍历：&quot; + binaryTree.traversalMid());         System.out.println(&quot;后序遍历：&quot; + binaryTree.traversalAfter());         System.out.println(&quot;层次遍历：&quot; + binaryTree.traversalLevel());</find>
-      <find>binaryTree</find>
-      <find>binaryTree.</find>
-      <find>System.out.println</find>
-      <find>int getHeight()</find>
+      <find>redis</find>
+      <find>batis</find>
+      <find>insert</find>
     </findStrings>
-    <replaceStrings>
-      <replace>sb.append</replace>
-    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/shit/demo/redis/service/RedisService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/shit/demo/action/RedisController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/shit/demo/action/UserController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/shit/demo/mongodb/service/impl/MongoServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/shit/demo/action/MongoController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/shit/demo/postgresql/service/PostgresqlService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/shit/demo/postgresql/service/impl/PostgresqlServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/shit/demo/action/PostgresqlController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/shit/demo/config/MasterConfig.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/shit/demo/config/SlaveConfig.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/shit/demo/bean/User.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/shit/demo/service/UserService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/shit/demo/action/DemoController.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/mapper/UserMapper.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/shit/demo/mapper/UserMapper.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/shit/demo/service/impl/UserServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/shit/demo/rabbitmq/Receiver.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/shit/demo/rabbitmq/RabbitMqConfig.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/application.properties" />
-        <option value="$PROJECT_DIR$/src/main/java/com/shit/demo/rabbitmq/Receiver1.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/shit/demo/rabbitmq/Receiver2.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/shit/demo/rabbitmq/Sender.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/shit/demo/rabbitmq/Sender1.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/shit/demo/action/RabbitMqController.java" />
-        <option value="$PROJECT_DIR$/README.md" />
-        <option value="$PROJECT_DIR$/demo-thread/src/main/java/com/shit/demothread/thread/MyTest.java" />
-        <option value="$PROJECT_DIR$/demo-thread/src/main/java/com/shit/demothread/MyTest.java" />
-        <option value="$PROJECT_DIR$/demo-thread/pom.xml" />
-        <option value="$PROJECT_DIR$/demo_algorithm/src/main/java/com/shit/demo_algorithm/dataStructure/Color.java" />
-        <option value="$PROJECT_DIR$/demo_algorithm/src/main/java/com/shit/demo_algorithm/dataStructure/RedBlackTree.java" />
-        <option value="$PROJECT_DIR$/demo_algorithm/src/main/java/com/shit/demo_algorithm/dataStructure/DTO/RedBlackTree.java" />
-        <option value="$PROJECT_DIR$/demo_algorithm/src/main/java/com/shit/demo_algorithm/dataStructure/DTO/NodeOfRedBlackTree.java" />
-        <option value="$PROJECT_DIR$/demo_algorithm/src/test/java/com/shit/demo_algorithm/dataStructure/StackTest.java" />
-        <option value="$PROJECT_DIR$/demo_algorithm/pom.xml" />
-        <option value="$PROJECT_DIR$/demo_algorithm/src/main/java/com/shit/demo_algorithm/dataStructure/DTO/NodeOfTree.java" />
-        <option value="$PROJECT_DIR$/demo_algorithm/src/main/java/com/shit/demo_algorithm/dataStructure/common/dataUtil.java" />
-        <option value="$PROJECT_DIR$/demo_algorithm/src/main/java/com/shit/demo_algorithm/dataStructure/common/DataUtil.java" />
-        <option value="$PROJECT_DIR$/demo_algorithm/src/main/java/com/shit/demo_algorithm/dataStructure/Queue.java" />
-        <option value="$PROJECT_DIR$/demo_algorithm/src/main/java/com/shit/demo_algorithm/dataStructure/ArrayQueue.java" />
-        <option value="$PROJECT_DIR$/demo_algorithm/src/main/java/com/shit/demo_algorithm/dataStructure/Stack.java" />
-        <option value="$PROJECT_DIR$/demo_algorithm/src/main/java/com/shit/demo_algorithm/dataStructure/TestStackAndQueue.java" />
-        <option value="$PROJECT_DIR$/demo_algorithm/src/main/java/com/shit/demo_algorithm/dataStructure/common/NodeOfTree.java" />
-        <option value="$PROJECT_DIR$/demo_algorithm/src/main/java/com/shit/demo_algorithm/dataStructure/TestBinaryTree.java" />
-        <option value="$PROJECT_DIR$/demo_algorithm/src/main/java/com/shit/demo_algorithm/dataStructure/Tree.java" />
-        <option value="$PROJECT_DIR$/demo_algorithm/src/main/java/com/shit/demo_algorithm/dataStructure/BinaryTree.java" />
-      </list>
-    </option>
-  </component>
-  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsGulpfileManager">
-    <detection-done>true</detection-done>
-    <sorting>DEFINITION_ORDER</sorting>
-  </component>
-  <component name="MavenImportPreferences">
-    <option name="importingSettings">
-      <MavenImportingSettings>
-        <option name="importAutomatically" value="true" />
-      </MavenImportingSettings>
-    </option>
-  </component>
-  <component name="MavenProjectNavigator">
-    <treeState>
-      <expand>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="demo" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-        </path>
-      </expand>
-      <select />
-    </treeState>
-  </component>
-  <component name="NodePackageJsonFileManager">
-    <packageJsonPaths />
-  </component>
   <component name="ProjectFrameBounds">
     <option name="y" value="23" />
     <option name="width" value="1440" />
-    <option name="height" value="813" />
+    <option name="height" value="823" />
   </component>
-  <component name="ProjectLevelVcsManager">
+  <component name="ProjectId" id="1eBEZ3SL6ro0brCu9gF4tOdCM9h" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <flattenPackages ProjectPane="false" />
-      <showMembers ProjectPane="false" />
-      <hideEmptyPackages ProjectPane="false" />
-      <autoscrollToSource ProjectPane="true" />
-      <autoscrollFromSource ProjectPane="true" />
-      <sortByType ProjectPane="true" />
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="AndroidView" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="demo" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
-    </panes>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
     <property name="RequestMappingsPanelOrder0" value="0" />
     <property name="RequestMappingsPanelOrder1" value="1" />
     <property name="RequestMappingsPanelWidth0" value="75" />
     <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="SearchEverywhereHistoryKey" value="UserMapper.xml&#9;FILE&#9;file:///Users/shitchan/Documents/workspace/demo/src/main/resources/mapper/UserMapper.xml" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="Arquillian JUnit4" />
-    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.Arquillian JUnit4" value="" />
-    <property name="extract.method.default.visibility" value="private" />
-    <property name="jdk.selected.JAVA_MODULE" value="JDK10" />
-    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
-    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="fileTemplates" />
+    <property name="project.structure.side.proportion" value="0.44893616" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
-    <key name="CreateTestDialog.RecentsKey">
-      <recent name="com.shit.demo_algorithm.dataStructure" />
-    </key>
-    <key name="CreateTestDialog.Recents.Supers">
-      <recent name="" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.shit.demo.rabbitmq" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$" />
-      <recent name="$PROJECT_DIR$/demo-thread/src/main/java/com/shit/demothread" />
-      <recent name="$PROJECT_DIR$/src/main/java/com/shit/demo/action" />
-      <recent name="$PROJECT_DIR$/src/main/resources" />
-      <recent name="$PROJECT_DIR$/src/main/java/com/shit/demo/mongodb" />
+      <recent name="$PROJECT_DIR$/src/main/java/com/shit/demo/mapper" />
     </key>
   </component>
   <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
     </option>
   </component>
-  <component name="RunManager" selected="Application.TestBinaryTree">
+  <component name="RunManager" selected="Spring Boot.DemoApplication">
     <configuration name="MyTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.shit.demothread.MyTest" />
+      <option name="MAIN_CLASS_NAME" value="com.shit.demothread.thread.MyTest" />
       <module name="demo_thread" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.shit.demothread.*" />
+          <option name="PATTERN" value="com.shit.demothread.thread.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-    </configuration>
-    <configuration name="Stack" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.shit.demo_algorithm.dataStructure.Stack" />
-      <module name="demo_algorithm" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.shit.demo_algorithm.dataStructure.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
-    <configuration name="TestBinaryTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.shit.demo_algorithm.dataStructure.TestBinaryTree" />
-      <module name="demo_algorithm" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.shit.demo_algorithm.dataStructure.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
-    <configuration name="TestStackAndQueue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.shit.demo_algorithm.dataStructure.TestStackAndQueue" />
-      <module name="demo_algorithm" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.shit.demo_algorithm.dataStructure.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestRedBlackTree" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="demo_algorithm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.shit.demo_algorithm.dataStructure.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.shit.demo_algorithm.dataStructure" />
+      <option name="MAIN_CLASS_NAME" value="com.shit.demo_algorithm.dataStructure.TestRedBlackTree" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestRedBlackTree.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="demo_algorithm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.shit.demo_algorithm.dataStructure.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.shit.demo_algorithm.dataStructure" />
+      <option name="MAIN_CLASS_NAME" value="com.shit.demo_algorithm.dataStructure.TestRedBlackTree" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration name="DemoAlgorithmApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="demo_algorithm" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.shit.demo_algorithm.DemoAlgorithmApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration name="DemoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="demo" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.shit.demo.DemoApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration name="DemoThreadApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="demo_thread" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.shit.demothread.DemoThreadApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
-    <configuration default="true" type="TestNG" factoryName="TestNG">
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
-      <option name="GROUP_NAME" />
+    <configuration default="true" type="TestNG">
       <option name="TEST_OBJECT" value="CLASS" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="OUTPUT_DIRECTORY" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <option name="USE_DEFAULT_REPORTERS" value="false" />
-      <option name="PROPERTIES_FILE" />
       <properties />
       <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <list>
+      <item itemvalue="Application.MyTest" />
+      <item itemvalue="JUnit.TestRedBlackTree" />
+      <item itemvalue="JUnit.TestRedBlackTree.test" />
       <item itemvalue="Spring Boot.DemoApplication" />
       <item itemvalue="Spring Boot.DemoThreadApplication" />
       <item itemvalue="Spring Boot.DemoAlgorithmApplication" />
-      <item itemvalue="Application.MyTest" />
-      <item itemvalue="Application.Stack" />
-      <item itemvalue="Application.TestBinaryTree" />
-      <item itemvalue="Application.TestStackAndQueue" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.TestBinaryTree" />
-        <item itemvalue="Application.TestStackAndQueue" />
-        <item itemvalue="Application.Stack" />
         <item itemvalue="Application.MyTest" />
+        <item itemvalue="JUnit.TestRedBlackTree" />
+        <item itemvalue="JUnit.TestRedBlackTree.test" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="SpringBeansView">
+    <option name="beanDetailsProportion" value="0.3" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="14707e53-d124-4c58-ad79-f223de9afdd9" name="Default" comment="" />
-      <created>1533738770638</created>
+      <changelist id="f80dc3b6-322e-42b5-9237-40e5bdf3ee84" name="Default" comment="" />
+      <created>1556549368532</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1533738770638</updated>
-      <workItem from="1533738772378" duration="2028000" />
-      <workItem from="1533740839549" duration="470000" />
-      <workItem from="1533741351244" duration="11640000" />
-      <workItem from="1534348841042" duration="16343000" />
-      <workItem from="1554217476507" duration="1402000" />
-      <workItem from="1555135104290" duration="49991000" />
+      <updated>1556549368532</updated>
+      <workItem from="1556549372293" duration="1755000" />
+      <workItem from="1556620673190" duration="234000" />
+      <workItem from="1556676736559" duration="4675000" />
+      <workItem from="1556789185966" duration="270000" />
+      <workItem from="1556945799837" duration="14826000" />
+      <workItem from="1556978091768" duration="1727000" />
+      <workItem from="1558148751828" duration="610000" />
+      <workItem from="1561195930368" duration="562000" />
+      <workItem from="1561994921433" duration="1020000" />
+      <workItem from="1589593938513" duration="765000" />
+      <workItem from="1593703391811" duration="29000" />
+      <workItem from="1593703462180" duration="728000" />
+      <workItem from="1593786648636" duration="838000" />
     </task>
-    <task id="LOCAL-00001" summary="thread">
-      <created>1554218534130</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1554218534130</updated>
-    </task>
-    <task id="LOCAL-00002" summary="thread">
-      <created>1554218962870</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1554218962870</updated>
-    </task>
-    <task id="LOCAL-00003" summary="算法-二叉树">
-      <created>1555341378389</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1555341378389</updated>
-    </task>
-    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
-  <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="81874000" />
-  </component>
-  <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="813" extended-state="0" />
-    <editor active="true" />
-    <layout>
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5007153" side_tool="true" weight="0.39944133" />
-      <window_info anchor="right" id="Maven Projects" order="3" visible="true" weight="0.17525035" />
-      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info id="Capture Tool" order="2" />
-      <window_info id="Designer" order="2" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.24964234" />
-      <window_info anchor="right" id="Database" order="3" weight="0.3297568" />
-      <window_info id="Structure" order="1" sideWeight="0.211838" side_tool="true" visible="true" weight="0.26752505" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.24964234" />
-      <window_info id="UI Designer" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49928468" weight="0.47905028" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" order="7" weight="0.32960895" />
-      <window_info anchor="right" id="Palette&#9;" order="3" />
-      <window_info id="Image Layers" order="2" />
-      <window_info anchor="bottom" id="Java Enterprise" order="7" />
-      <window_info anchor="right" id="Capture Analysis" order="3" />
-      <window_info anchor="bottom" id="Version Control" order="7" visible="true" weight="0.551676" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.28072625" />
-      <window_info anchor="bottom" id="Spring" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32960895" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.788162" visible="true" weight="0.26752505" />
-      <window_info anchor="bottom" id="Problems" order="7" />
-      <window_info anchor="right" id="Bean Validation" order="3" weight="0.3297568" />
-      <window_info id="Web" order="2" sideWeight="0.5023256" side_tool="true" weight="0.25679544" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="right" id="Theme Preview" order="3" />
-      <window_info id="Favorites" order="2" sideWeight="0.5023256" side_tool="true" weight="0.25679544" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Message" order="0" />
-    </layout>
+  <component name="TestHistory">
+    <history-entry file="TestRedBlackTree - 2019.05.01 at 16h 05m 10s.xml">
+      <configuration name="TestRedBlackTree" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestRedBlackTree_test - 2019.05.01 at 16h 05m 29s.xml">
+      <configuration name="TestRedBlackTree.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestRedBlackTree_test - 2019.05.01 at 16h 06m 07s.xml">
+      <configuration name="TestRedBlackTree.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestRedBlackTree_test - 2019.05.01 at 16h 06m 30s.xml">
+      <configuration name="TestRedBlackTree.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestRedBlackTree - 2019.05.01 at 16h 07m 13s.xml">
+      <configuration name="TestRedBlackTree" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestRedBlackTree - 2019.05.01 at 16h 07m 22s.xml">
+      <configuration name="TestRedBlackTree" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="2" />
   </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
-  </component>
-  <component name="VcsManagerConfiguration">
-    <MESSAGE value="thread" />
-    <MESSAGE value="算法-二叉树" />
-    <option name="LAST_COMMIT_MESSAGE" value="算法-二叉树" />
+  <component name="WindowStateProjectService">
+    <state x="221" y="73" key="SettingsEditor" timestamp="1593790003921">
+      <screen x="0" y="23" width="1440" height="830" />
+    </state>
+    <state x="221" y="73" key="SettingsEditor/0.23.1440.830@0.23.1440.830" timestamp="1593790003921" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="52" />
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/shit/demo/service/impl/UserServiceImpl.java</url>
+          <line>27</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis/3.4.6/mybatis-3.4.6.jar!/org/apache/ibatis/binding/MapperMethod.class</url>
+          <line>326</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+      </breakpoints>
     </breakpoint-manager>
-    <watches-manager>
-      <configuration name="Application">
-        <watch expression="((NodeOfTree)((NodeOfTree)((NodeOfTree)((BinaryTree)this).root).left).right).right" custom="com.shit.demo_algorithm.dataStructure.DTO.NodeOfTree,com.shit.demo_algorithm.dataStructure.BinaryTree" />
-      </configuration>
-    </watches-manager>
-  </component>
-  <component name="antWorkspaceConfiguration">
-    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
-    <option name="FILTER_TARGETS" value="false" />
-  </component>
-  <component name="editorHistoryManager">
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.0.8.RELEASE/spring-web-5.0.8.RELEASE.jar!/org/springframework/web/filter/OncePerRequestFilter.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="117">
-          <caret line="34" column="43" selection-start-line="34" selection-start-column="28" selection-end-line="34" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-10.0.1.jdk/Contents/Home/lib/src.zip!/java.base/java/util/Map.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="134">
-          <caret line="194" column="4" selection-start-line="194" selection-start-column="4" selection-end-line="194" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis/3.4.6/mybatis-3.4.6.jar!/org/apache/ibatis/session/Configuration.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="98">
-          <caret line="162" column="29" selection-start-line="162" selection-start-column="13" selection-end-line="162" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/5.0.8.RELEASE/spring-webmvc-5.0.8.RELEASE.jar!/org/springframework/web/servlet/mvc/method/annotation/RequestMappingHandlerAdapter.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="787">
-          <caret line="571" selection-start-line="571" selection-end-line="571" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis-spring/1.3.2/mybatis-spring-1.3.2.jar!/org/mybatis/spring/SqlSessionTemplate.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="171" column="37" selection-start-line="171" selection-start-column="20" selection-end-line="171" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.0.8.RELEASE/spring-web-5.0.8.RELEASE.jar!/org/springframework/web/method/support/InvocableHandlerMethod.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="117">
-          <caret line="126" selection-start-line="126" selection-end-line="126" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-10.0.1.jdk/Contents/Home/lib/src.zip!/java.base/java/lang/Object.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="134">
-          <caret line="157" selection-start-line="157" selection-end-line="157" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/shit/demo/action/DemoController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="29" lean-forward="true" selection-start-line="21" selection-start-column="29" selection-end-line="21" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/UserMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="17" column="22" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/shit/demo/mapper/UserMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="1" lean-forward="true" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis/3.4.6/mybatis-3.4.6.jar!/org/apache/ibatis/binding/MapperMethod.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="117">
-          <caret line="34" selection-start-line="34" selection-end-line="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis/3.4.6/mybatis-3.4.6.jar!/org/apache/ibatis/binding/MapperProxy.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="117">
-          <caret line="42" selection-start-line="42" selection-end-line="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/shit/demo/mongodb/service/impl/MongoServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="9" column="71" selection-start-line="9" selection-start-column="62" selection-end-line="9" selection-end-column="71" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/shit/demo/mongodb/service/MongoService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/shit/demo/action/MongoController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="25" column="17" selection-start-line="25" selection-start-column="17" selection-end-line="25" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/shit/demo/service/UserService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="16" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/shit/demo/service/impl/UserServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="11" selection-start-line="11" selection-end-line="11" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/amqp/spring-amqp/2.0.5.RELEASE/spring-amqp-2.0.5.RELEASE.jar!/org/springframework/amqp/core/AmqpTemplate.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="134">
-          <caret line="19" column="9" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/shit/demo/rabbitmq/Receiver1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="12" column="37" selection-start-line="12" selection-start-column="37" selection-end-line="12" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/shit/demo/rabbitmq/Receiver2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="12" column="37" selection-start-line="12" selection-start-column="37" selection-end-line="12" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/shit/demo/rabbitmq/Receiver.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="39" lean-forward="true" selection-start-line="11" selection-start-column="39" selection-end-line="11" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/shit/demo/rabbitmq/RabbitMqConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="18" selection-start-line="11" selection-start-column="15" selection-end-line="11" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/shit/demo/rabbitmq/Sender.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="13" column="24" lean-forward="true" selection-start-line="13" selection-start-column="24" selection-end-line="13" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/shit/demo/rabbitmq/Sender1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="11" column="39" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="237">
-          <caret line="50" column="25" lean-forward="true" selection-start-line="50" selection-start-column="25" selection-end-line="50" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/shit/demo/action/RabbitMqController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="143">
-          <caret line="20" column="23" lean-forward="true" selection-start-line="20" selection-start-column="23" selection-end-line="20" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-devtools/2.0.4.RELEASE/spring-boot-devtools-2.0.4.RELEASE.jar!/org/springframework/boot/devtools/restart/RestartLauncher.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="83">
-          <caret line="28" selection-start-line="28" selection-end-line="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="30">
-            <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo-thread/src/main/java/com/shit/demothread/thread/MyTest.java" />
-    <entry file="file://$PROJECT_DIR$/demo-thread/src/main/java/com/shit/demothread/DemoThreadApplication.java" />
-    <entry file="file://$PROJECT_DIR$/demo-thread/src/main/java/com/shit/demothread/MyTest.java" />
-    <entry file="file://$PROJECT_DIR$/demo-thread/pom.xml" />
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="10" column="21" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo_algorithm/src/main/java/com/shit/demo_algorithm/DemoAlgorithmApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="10" column="5" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
-          <folding>
-            <element signature="e#262#263#0" expanded="true" />
-            <element signature="e#337#338#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo_algorithm/src/test/java/com/shit/demo_algorithm/dataStructure/StackTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="12" column="23" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo_algorithm/src/main/java/com/shit/demo_algorithm/dataStructure/Stack.class">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo_algorithm/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="39" column="11" selection-start-line="33" selection-start-column="24" selection-end-line="33" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo_algorithm/src/main/java/com/shit/demo_algorithm/dataStructure/Stack.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="28" column="17" lean-forward="true" selection-start-line="28" selection-start-column="17" selection-end-line="28" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#974#975#0" expanded="true" />
-            <element signature="e#1003#1004#0" expanded="true" />
-            <element signature="e#1034#1035#0" expanded="true" />
-            <element signature="e#1112#1113#0" expanded="true" />
-            <element signature="e#1136#1137#0" expanded="true" />
-            <element signature="e#1164#1165#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo_algorithm/src/main/java/com/shit/demo_algorithm/dataStructure/ArrayQueue.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="128">
-          <caret line="28" column="27" lean-forward="true" selection-start-line="28" selection-start-column="27" selection-end-line="28" selection-end-column="27" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1133#1134#0" expanded="true" />
-            <element signature="e#1227#1228#0" expanded="true" />
-            <element signature="e#1208#1209#0" expanded="true" />
-            <element signature="e#1239#1240#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo_algorithm/src/main/java/com/shit/demo_algorithm/dataStructure/Queue.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="12" column="19" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo_algorithm/src/main/java/com/shit/demo_algorithm/dataStructure/TestStackAndQueue.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-217">
-          <caret line="7" column="28" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo_algorithm/src/main/java/com/shit/demo_algorithm/dataStructure/TestBinaryTree.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="69" lean-forward="true" selection-start-line="10" selection-start-column="69" selection-end-line="10" selection-end-column="69" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo_algorithm/src/main/java/com/shit/demo_algorithm/dataStructure/Tree.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="258">
-          <caret line="21" column="17" selection-start-line="21" selection-start-column="8" selection-end-line="21" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/doc/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo_algorithm/src/main/java/com/shit/demo_algorithm/dataStructure/common/DataUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="5" lean-forward="true" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo_algorithm/src/main/java/com/shit/demo_algorithm/dataStructure/BinaryTree.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="97">
-          <caret line="279" column="35" lean-forward="true" selection-start-line="279" selection-start-column="35" selection-end-line="279" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo_algorithm/src/main/java/com/shit/demo_algorithm/dataStructure/common/NodeOfRedBlackTree.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="87">
-          <caret line="9" column="27" lean-forward="true" selection-start-line="9" selection-start-column="27" selection-end-line="9" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo_algorithm/src/main/java/com/shit/demo_algorithm/dataStructure/common/NodeOfTree.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
-          <folding>
-            <element signature="e#255#256#0" expanded="true" />
-            <element signature="e#283#284#0" expanded="true" />
-            <element signature="e#361#362#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo_algorithm/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo_algorithm/src/main/java/com/shit/demo_algorithm/dataStructure/common/Color.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="13" column="5" lean-forward="true" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
   </component>
   <component name="masterDetails">
     <states>
@@ -935,7 +306,7 @@
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.44893616" />
               </list>
             </option>
           </splitter-proportions>
@@ -943,11 +314,11 @@
       </state>
       <state key="JdkListConfigurable.UI">
         <settings>
-          <last-edited>JDK10</last-edited>
+          <last-edited>12</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.44893616" />
               </list>
             </option>
           </splitter-proportions>
@@ -955,7 +326,19 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>demo_algorithm</last-edited>
+          <last-edited>demo_thread</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.44893616" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>12</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -967,11 +350,11 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
-          <last-edited>Maven: ch.qos.logback:logback-classic:1.2.3</last-edited>
+          <last-edited>Maven: javax.validation:validation-api:2.0.1.Final</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.44893616" />
               </list>
             </option>
           </splitter-proportions>
